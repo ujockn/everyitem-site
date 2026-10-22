@@ -1,0 +1,35 @@
+<article class="guide container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="/guides/">Guides</a></li>
+      <li aria-current="page">{{title}}</li>
+    </ol>
+  </nav>
+  <header class="guide-head">
+    <p class="eyebrow">{{category}}</p>
+    <h1>{{title}}</h1>
+    <p class="meta">Last updated <time datetime="{{updated_iso}}">{{updated_nice}}</time></p>
+  </header>
+
+  <aside class="quick-answer" aria-labelledby="quick-answer-title">
+    <h2 id="quick-answer-title">Quick answer</h2>
+    <p>{{quick_answer}}</p>
+  </aside>
+
+  {{toc}}
+
+  <div class="prose">
+{{content}}
+  </div>
+
+  <aside class="cta" aria-labelledby="cta-title">
+    <h2 id="cta-title">{{cta_title}}</h2>
+    <p>Every Item keeps your receipts and warranties on your iPhone and reminds you before return windows close and warranties expire. No account needed.</p>
+    <p class="badge-soon">Coming soon to the App Store</p>
+  </aside>
+
+  {{faq}}
+
+  <p class="disclaimer">Store policies and warranty terms change and can vary by location, product and membership. Always confirm the current details with the retailer or manufacturer before you rely on them.</p>
+</article>

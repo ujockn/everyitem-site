@@ -1,0 +1,41 @@
+---
+title: Support | Every Item
+description: Get help with the Every Item iPhone app: answers to common questions about receipts, reminders, Face ID lock, backups and Pro purchases.
+path: /support/
+---
+<!--
+  TODO: the support@everyitem.app mailbox is NOT set up yet.
+  1. Create it (e.g. Porkbun email forwarding to your personal inbox) and send a test email.
+  2. Then set "support_email_ready": True in build.py and rebuild. That removes the notice below.
+-->
+<article class="container narrow legal">
+  <h1>Support</h1>
+  <p class="lede">Need a hand with Every Item? Start with the answers below, or get in touch.</p>
+
+  <div class="card contact-card">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:{{support_email}}">{{support_email}}</a></p>
+    <p>Every Item is made by one person, so replies can take a day or two. Please include your iPhone model and iOS version if something isn't working.</p>
+    {{support_notice}}
+  </div>
+
+  <h2>Common questions</h2>
+
+  <h3>Is my data backed up?</h3>
+  <p>Every Item stores your data on your iPhone. There's no Every Item account or cloud copy. Your data may be included in your regular iPhone backups (iCloud Backup or a computer backup), depending on your settings.</p>
+
+  <h3>I'm not getting reminders</h3>
+  <p>Check that notifications are allowed for Every Item in Settings &rsaquo; Notifications &rsaquo; Every Item, and that Focus modes aren't silencing them.</p>
+
+  <h3>How do I save a receipt from an email or PDF?</h3>
+  <p>Open the email, PDF or screenshot, tap the Share button and choose Every Item. If you don't see it, scroll to the end of the app row and tap More.</p>
+
+  <h3>How do I turn on the Face ID lock?</h3>
+  <p>Turn it on in the app's settings. Face ID is handled by iOS and your face data never reaches the app.</p>
+
+  <h3>How do I restore a purchase or cancel Pro?</h3>
+  <p>Purchases are handled by Apple. Use Restore Purchases in the app to restore Pro on a new device. To cancel a subscription, go to Settings &rsaquo; your name &rsaquo; Subscriptions on your iPhone. For refunds, visit <a href="https://reportaproblem.apple.com/" rel="noopener">reportaproblem.apple.com</a>.</p>
+
+  <h3>Where can I learn about return policies and warranties?</h3>
+  <p>See our <a href="/guides/">guides</a>.</p>
+</article>

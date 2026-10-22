@@ -1,0 +1,123 @@
+# everyitem.app website
+
+The marketing site and SEO guides for **Every Item**, the iPhone app that keeps every receipt, warranty and return deadline.
+
+It's plain HTML and CSS with no JavaScript and no framework. One small Python script (`build.py`) turns the files in this folder into a finished website in `dist/`. You upload `dist/` to your host, or let GitHub build it for you (see [HOSTING.md](HOSTING.md)).
+
+---
+
+## 1. One-time setup
+
+You need **Python 3.9 or newer**. On a Mac, open Terminal and type `python3 --version` to check.
+
+```bash
+cd path/to/everyitem-site
+python3 -m pip install -r requirements.txt     # installs the "markdown" package
+```
+
+## 2. Build and preview
+
+```bash
+python3 build.py --serve
+```
+
+Open **http://localhost:8000** in your browser. Press `Ctrl+C` in Terminal to stop. After you edit a file, run the command again and refresh the page.
+
+| Command | What it does |
+| --- | --- |
+| `python3 build.py` | Builds the real site into `dist/` (this is what you publish) |
+| `python3 build.py --serve` | Builds, then previews it at http://localhost:8000 |
+| `python3 build.py --drafts --serve` | Builds **including drafts** into `preview/` so you can see unfinished guides. Never upload `preview/`. |
+| `python3 scripts/check_site.py` | Checks `dist/` for broken links, missing titles and descriptions, bad HTML and sitemap errors |
+
+Always run `python3 build.py && python3 scripts/check_site.py` before you publish.
+
+## 3. Add a new guide
+
+Guides live in `content/guides/`. Each `.md` file becomes a page at `https://everyitem.app/guides/<file-name>/`.
+
+1. **Copy the template.** Duplicate `content/guides/_template.md` and rename the copy using lowercase words and dashes, for example `content/guides/how-to-organize-receipts.md`. The file name becomes the URL, so choose it carefully and don't change it later.
+2. **Fill in the header** (the part between the two `---` lines):
+
+   ```yaml
+   ---
+   title: How to Organize Receipts So You Can Find Them Later
+   description: One sentence (120-155 characters) that shows up in Google results.
+   updated: 2026-10-21
+   category: Organizing receipts
+   quick_answer: The 1-3 sentence answer shown in the green box at the top.
+   draft: true
+   ---
+   ```
+
+   `category` must be one of: `Store return policies`, `Warranty guides`, `Organizing receipts`, `Home inventory for insurance`. These are the groups on the /guides/ page, and you can add more in `build.py` (`GUIDE_CATEGORIES`).
+   Optional fields: `slug:` (a different URL), `seo_title:` (a shorter Google title), `published:` (the first publish date).
+3. **Write the body in Markdown** below the header:
+   - `## Heading` starts a section and is added to the "On this page" table of contents automatically.
+   - `**bold**`, `*italic*`, `[link text](https://example.com)`, `- bullet`, `1. step`, and tables all work.
+   - **FAQ:** add a heading called `## Frequently asked questions` at the end. Each `### Question?` under it, with its answer below, becomes an FAQ entry, and it's also added to the Google structured data (FAQPage JSON-LD) for you.
+   - You don't write the call-to-action box, the "Last updated" line or the disclaimer. The template adds them.
+4. **Preview it** with `python3 build.py --drafts --serve` and go to `http://localhost:8000/guides/<file-name>/`.
+5. **Publish it** by deleting the `draft: true` line, then running `python3 build.py`. The guide now appears on `/guides/` and in `sitemap.xml` automatically.
+
+**Safety checks the build does for you:**
+- Files starting with `_` and guides with `draft: true` are never published.
+- The build **stops** if a guide you're publishing still contains the word `TODO`, has a missing field, or uses a bad date. Fix the message it prints and run it again.
+- It prints a `note:` if a title or description is too long or too short for Google.
+
+**Accuracy rule for return-policy guides:** only write what the store's official policy page says, link to that page in a "Sources" section, and update the `updated:` date whenever you re-check it. Don't write policy details from memory.
+
+## 4. Edit the other pages
+
+| Page | File |
+| --- | --- |
+| Home | `pages/index.html` |
+| Privacy policy | `pages/privacy.html` (update the "Last updated" date in it when you change it) |
+| Terms | `pages/terms.html` |
+| Support | `pages/support.html` |
+| 404 "not found" | `pages/404.html` |
+| Header & footer on every page | `templates/base.html` |
+| Guide layout (quick answer, TOC, CTA box, FAQ) | `templates/guide.html` |
+| Colors, fonts, layout | `static/styles.css` |
+| Logo / favicon | `static/favicon.svg` (then run `bash scripts/make_images.sh` to refresh the PNG icons and the social-share image) |
+
+Each page in `pages/` starts with a header that sets its `title`, `description` (both must be unique) and `path` (its URL). Words in `{{double_braces}}` get filled in by the build. The site-wide settings, like the support email, are at the top of `build.py`.
+
+## 5. What gets generated in `dist/`
+
+```
+dist/
+  index.html                 home
+  guides/index.html          /guides/ (lists every published guide by category)
+  guides/<slug>/index.html   each guide
+  privacy/index.html  terms/index.html  support/index.html
+  404.html
+  sitemap.xml  robots.txt
+  styles.css  favicon.svg  favicon-32.png  apple-touch-icon.png  og-image.png
+```
+
+Every page gets a unique title and description, a canonical URL on `https://everyitem.app`, Open Graph and Twitter tags, and clean URLs (`/privacy/` instead of `/privacy.html`). Guides also get Article, BreadcrumbList and FAQPage structured data.
+
+## 6. Project layout
+
+```
+build.py                  the build script (all settings at the top)
+requirements.txt          Python packages needed (just "markdown")
+content/guides/           guide Markdown files (_template.md = draft template, never published)
+pages/                    home, privacy, terms, support, 404
+templates/                base.html (shared layout), guide.html (guide layout)
+static/                   CSS, icons, images, copied into dist/ as-is
+scripts/check_site.py     link and HTML checker
+scripts/screenshots.py    optional: takes screenshots (needs `pip install playwright`)
+scripts/make_images.sh    optional: regenerates the PNG icons and social image (needs Chrome)
+.github/workflows/deploy.yml   auto-publishes to GitHub Pages (see HOSTING.md)
+HOSTING.md                where and how to host the site
+```
+
+## 7. TODO before launch
+
+- [ ] **Support mailbox:** `support@everyitem.app` doesn't exist yet (the domain has no MX records). Set up Porkbun's free email forwarding (Domain Management > Email), send a test email, then set `"support_email_ready": True` in `build.py`. That removes the "inbox opens at launch" notice on /support/.
+- [ ] **Privacy policy:** before you submit to the App Store, check `pages/privacy.html` against the shipping app. It assumes no analytics, ads or third-party SDKs and no network requests with user data. Make sure your App Store privacy answers match. Update it **before** shipping any email-forwarding feature.
+- [ ] **Confirm feature claims:** the Free plan's feature list (scanning, Share Sheet import, reminders), "Unlimited items" for Pro, "Restore Purchases", the Face ID switch in settings, and data being included in iPhone backups. Edit `pages/index.html` and `pages/support.html` if any of these differ.
+- [ ] **At launch:** replace the "Coming soon to the App Store" badges in `pages/index.html` and `templates/guide.html` with the official App Store badge linking to your app (follow Apple's badge guidelines). Until then, don't use Apple's badge artwork.
+- [ ] Write and publish your first real guides, then submit `https://everyitem.app/sitemap.xml` in Google Search Console.

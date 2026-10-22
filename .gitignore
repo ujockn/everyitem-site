@@ -1,0 +1,6 @@
+# Build output (re-created by `python3 build.py`)
+dist/
+preview/
+__pycache__/
+.DS_Store
+screenshots/

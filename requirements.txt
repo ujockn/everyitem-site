@@ -1,0 +1,2 @@
+# The only package the build needs. Install with:  python3 -m pip install -r requirements.txt
+markdown>=3.5
