@@ -52,7 +52,7 @@ SITE = {
     # TODO: set to True once the support@everyitem.app mailbox actually exists
     # and you have sent it a test email. While False, the build prints a warning
     # and the support page tells visitors the inbox opens at launch.
-    "support_email_ready": False,
+    "support_email_ready": True,
     "og_image": "/og-image.png",
 }
 
