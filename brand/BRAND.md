@@ -2,32 +2,47 @@
 
 ## Icon
 
-A white paper receipt with three grey lines, a cut-out checkmark and a zigzag torn
-bottom edge, on a rounded square filled with the Sunset gradient (orange top-left to
-hot pink bottom-right). Flat, no shadows, no text.
+A white paper receipt framed by four white camera-viewfinder corner brackets, like scanning a
+document with the iPhone camera, on a rounded square filled with the Sunset gradient (orange
+top-left to hot pink bottom-right). Flat, no shadows, no text.
+
+- **Receipt:** rounded top corners and a zigzag torn bottom edge (6 teeth), scaled to 72% of
+  the original concept and nudged slightly below centre so it looks optically centred.
+- **Receipt content:** three grey item lines (`#D3D3D3`), a faint dotted rule, then a
+  **total line**: a short grey label (`#B9B9B9`) on the left and a bold bar in the Sunset
+  gradient on the right. The gradient total bar is the icon's one colour accent.
+- **Brackets:** four L-shaped corners, stroke 50 on the 1024 grid (about 3 px at 60 px),
+  round caps and softly rounded elbows. Keep clear space between the receipt and the brackets.
+- **Small-size variant** (`static/favicon.svg`, `favicon-32.png`, site header and footer
+  logo): at 16-32 px the item lines and total row turn to mush, so this variant drops them.
+  It has a bigger receipt, heavier brackets (stroke 88), three deep teeth and a single
+  gradient total bar. Use the full icon at 48 px and above.
+- The previous receipt-and-checkmark icon (used until Oct 2026) is archived in `brand/archive/` for
+  reference only. Don't use it.
 
 | File | Use |
 | --- | --- |
 | `brand/icon.svg` | Master vector with rounded corners and transparent corners (website, docs, press) |
-| `static/favicon.svg` | Same file, used as the site favicon and header logo |
+| `static/favicon.svg` | Simplified small-size variant, used as the site favicon and the header and footer logo |
 | `brand/app-icon-full-bleed.svg` | Square, no rounded corners, no transparency (source for the App Store icon) |
 | `brand/app-icon-1024.png` | **App Store icon**: 1024x1024 PNG, RGB with no alpha channel. iOS rounds the corners itself, so don't add them |
 | `static/apple-touch-icon.png` | 180x180, full-bleed (iOS home-screen bookmark) |
-| `static/favicon-32.png` | 32x32 PNG favicon fallback |
+| `static/favicon-32.png` | 32x32 PNG favicon fallback (small-size variant) |
 | `static/og-image.png` | 1200x630 social-share image (icon + wordmark + tagline) |
 | `brand/icon_concept_sunset.jpg` | Original AI-generated concept (reference only; don't ship it) |
+| `brand/archive/` | Old checkmark icon (`icon-checkmark.svg`, `app-icon-checkmark-full-bleed.svg`, `app-icon-checkmark-1024.png`), retired |
 
 Regenerate everything with `bash scripts/make_images.sh` (which runs `scripts/make_brand.py --png`).
 
-> **Originality check before trademark use.** The icon was recreated from an
-> **AI-generated concept**. Receipt-plus-checkmark icons are common. Before you file a
+> **Originality check before trademark use.** The receipt was recreated from an
+> **AI-generated concept**, and receipt and scan-viewfinder icons are common. Before you file a
 > trademark or rely on the icon as a distinctive mark, run a reverse-image search and
 > a USPTO design-mark search, and compare it with other receipt and warranty apps in the
 > App Store. If it's too close to an existing mark, change it.
 
 **Icon usage**
 - Keep clear space around the icon of at least 1/8 of its width.
-- Minimum size: 16 px (favicon). Below 24 px the receipt lines get soft, which is fine.
+- Minimum size: 16 px (favicon). Below 48 px use the small-size variant (`static/favicon.svg`).
 - Only use the supplied files. Don't recolour, rotate, stretch, outline or add effects or shadows.
 - Use it on white, `--bg` (#FBFAF7) or dark (#111416) backgrounds. Don't put it on busy photos or on the Sunset gradient itself.
 

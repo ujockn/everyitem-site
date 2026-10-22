@@ -7,7 +7,7 @@
     </linearGradient>
   </defs>
   <rect width="1024" height="1024" rx="229" fill="url(#ei-sunset)"/>
-  <path d="M280 222 Q280 196 306 196 H718 Q744 196 744 222 V796 L705.3 758 L666.7 796 L628.0 758 L589.3 796 L550.7 758 L512.0 796 L473.3 758 L434.7 796 L396.0 758 L357.3 796 L318.7 758 L280.0 796 Z" fill="#fff" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
-  <path d="M352 294H672M352 354H624M352 414H548" stroke="#D3D3D3" stroke-width="26" stroke-linecap="round"/>
-  <path d="M404 562L484 642L626 498" fill="none" stroke="url(#ei-sunset)" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M340.3 313.2 Q340.3 294.0 359.6 294.0 H664.4 Q683.7 294.0 683.7 313.2 V738.0 L626.5 671.4 L569.2 738.0 L512.0 671.4 L454.8 738.0 L397.5 671.4 L340.3 738.0 Z" fill="#fff" stroke="#fff" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M420.3 471.6H603.7" stroke="url(#ei-sunset)" stroke-width="64" stroke-linecap="round"/>
+  <path d="M240.3 338.0V274.0Q240.3 210.0 304.3 210.0H368.3 M783.7 338.0V274.0Q783.7 210.0 719.7 210.0H655.7 M783.7 684.0V748.0Q783.7 812.0 719.7 812.0H655.7 M240.3 684.0V748.0Q240.3 812.0 304.3 812.0H368.3" fill="none" stroke="#fff" stroke-width="88" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

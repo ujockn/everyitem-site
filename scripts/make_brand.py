@@ -7,7 +7,7 @@
 
 Writes:
   brand/icon.svg                     rounded-square icon (transparent corners), master vector
-  static/favicon.svg                 same as brand/icon.svg (used on the website)
+  static/favicon.svg                 simplified small-size variant (favicon, site header/footer logo)
   brand/app-icon-full-bleed.svg      square, no rounded corners, no transparency
   brand/app-icon-1024.png            App Store icon: 1024x1024 RGB, no alpha (iOS rounds corners itself)
   brand/wordmark.svg                 "Every Item" in Inter Bold, outlined, dark (#1C1F23)
@@ -34,29 +34,81 @@ SUNSET_ORANGE = "#FD6404"
 SUNSET_PINK = "#FD1F69"
 INK = "#1C1F23"
 RECEIPT_LINE = "#D3D3D3"
+TOTAL_LABEL = "#B9B9B9"
 INTER = Path("/usr/share/fonts/truetype/sand-box/google/Inter/Inter-VariableFont_opsz,wght.ttf")
 
-# Icon geometry on a 1024 grid (traced from the concept, shadows removed).
+# Icon geometry on a 1024 grid. "Scan" icon (version A, chosen Oct 2026): the receipt from
+# the original concept, scaled to 72% and framed by four white camera-viewfinder corner
+# brackets. The old checkmark icon is kept in brand/archive/.
 RX = 229  # ~22.4%, close to the iOS corner shape; only used for the web/brand icon
+CX = 512
+BRACKET_W = 50  # stroke weight; ~3 px at 60 px home-screen size
 
 
-def receipt_path():
-    x0, x1, top, bottom, peak, r = 280, 744, 196, 796, 758, 26
-    teeth = 6
-    w = (x1 - x0) / teeth
-    d = [f"M{x0} {top + r}", f"Q{x0} {top} {x0 + r} {top}", f"H{x1 - r}",
-         f"Q{x1} {top} {x1} {top + r}", f"V{bottom}"]
-    for i in range(teeth):  # zigzag torn edge, right to left
-        xr = x1 - i * w
-        d.append(f"L{xr - w / 2:.1f} {peak}")
-        d.append(f"L{xr - w:.1f} {bottom}")
+def receipt_path(cx, top, w, h, s, teeth=6, tooth=38):
+    """Receipt outline: rounded top corners, zigzag torn bottom edge (right to left)."""
+    x0, x1 = cx - w / 2, cx + w / 2
+    bottom, peak, r = top + h, top + h - tooth * s, 26 * s
+    tw = w / teeth
+    d = [f"M{x0:.1f} {top + r:.1f}", f"Q{x0:.1f} {top:.1f} {x0 + r:.1f} {top:.1f}", f"H{x1 - r:.1f}",
+         f"Q{x1:.1f} {top:.1f} {x1:.1f} {top + r:.1f}", f"V{bottom:.1f}"]
+    for i in range(teeth):
+        xr = x1 - i * tw
+        d += [f"L{xr - tw / 2:.1f} {peak:.1f}", f"L{xr - tw:.1f} {bottom:.1f}"]
     d.append("Z")
     return " ".join(d)
 
 
-def icon_svg(full_bleed=False, size=None):
+def corner_brackets(x0, y0, x1, y1, arm, sw, r):
+    """Four L-shaped viewfinder corners with rounded elbows and round caps."""
+    ps = []
+    for cx, cy, dx, dy in [(x0, y0, 1, 1), (x1, y0, -1, 1), (x1, y1, -1, -1), (x0, y1, 1, -1)]:
+        ps.append(f"M{cx:.1f} {cy + dy * arm:.1f}V{cy + dy * r:.1f}"
+                  f"Q{cx:.1f} {cy:.1f} {cx + dx * r:.1f} {cy:.1f}H{cx + dx * arm:.1f}")
+    return (f'<path d="{" ".join(ps)}" fill="none" stroke="#fff" stroke-width="{sw}" '
+            f'stroke-linecap="round" stroke-linejoin="round"/>')
+
+
+def icon_body():
+    """Full-detail icon: receipt with three item lines, a dotted rule and a total row."""
+    s = 0.72
+    w, h = 464 * s, 600 * s
+    top = 512 - h / 2 + 6  # optical centring (the torn edge makes the bottom look lighter)
+    x0, x1 = CX - w / 2, CX + w / 2
+    lx, rx = x0 + 72 * s, x1 - 72 * s
+    y = lambda off: top + off * s
+    sw = 26 * s
+    items = (f"M{lx:.1f} {y(98):.1f}H{lx + 320 * s:.1f}M{lx:.1f} {y(158):.1f}H{lx + 272 * s:.1f}"
+             f"M{lx:.1f} {y(218):.1f}H{lx + 196 * s:.1f}")
+    return "\n".join([
+        f'  <path d="{receipt_path(CX, top, w, h, s)}" fill="#fff" stroke="#fff" stroke-width="{10 * s:.1f}" stroke-linejoin="round"/>',
+        f'  <path d="{items}" stroke="{RECEIPT_LINE}" stroke-width="{sw:.1f}" stroke-linecap="round"/>',
+        f'  <path d="M{lx:.1f} {y(334):.1f}H{rx:.1f}" stroke="{RECEIPT_LINE}" stroke-width="{10 * s:.1f}" stroke-linecap="round" stroke-dasharray="{2 * s:.1f} {22 * s:.1f}"/>',
+        f'  <path d="M{lx:.1f} {y(410):.1f}H{lx + 110 * s:.1f}" stroke="{TOTAL_LABEL}" stroke-width="{sw:.1f}" stroke-linecap="round"/>',
+        f'  <path d="M{rx - 128 * s:.1f} {y(410):.1f}H{rx:.1f}" stroke="url(#ei-sunset)" stroke-width="{40 * s:.1f}" stroke-linecap="round"/>',
+        "  " + corner_brackets(x0 - 86, top - 74, x1 + 86, top + h + 64, arm=116, sw=BRACKET_W, r=58),
+    ])
+
+
+def favicon_body():
+    """Small-size variant (16-32 px): same brackets and receipt shape, no fine lines.
+    Bigger receipt, heavier brackets, three deep teeth, and one bold gradient total bar."""
+    s = 0.74
+    w, h = 464 * s, 600 * s
+    top = 512 - h / 2 + 4
+    x0, x1 = CX - w / 2, CX + w / 2
+    bar_y = top + h * 0.40
+    return "\n".join([
+        f'  <path d="{receipt_path(CX, top, w, h, s, teeth=3, tooth=90)}" fill="#fff" stroke="#fff" stroke-width="12" stroke-linejoin="round"/>',
+        f'  <path d="M{x0 + 80:.1f} {bar_y:.1f}H{x1 - 80:.1f}" stroke="url(#ei-sunset)" stroke-width="64" stroke-linecap="round"/>',
+        "  " + corner_brackets(x0 - 100, top - 84, x1 + 100, top + h + 74, arm=128, sw=88, r=64),
+    ])
+
+
+def icon_svg(full_bleed=False, size=None, small=False):
     rx = 0 if full_bleed else RX
     dims = f' width="{size}" height="{size}"' if size else ""
+    body = favicon_body() if small else icon_body()
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"{dims}>
   <title>Every Item</title>
   <defs>
@@ -66,9 +118,7 @@ def icon_svg(full_bleed=False, size=None):
     </linearGradient>
   </defs>
   <rect width="1024" height="1024" rx="{rx}" fill="url(#ei-sunset)"/>
-  <path d="{receipt_path()}" fill="#fff" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
-  <path d="M352 294H672M352 354H624M352 414H548" stroke="{RECEIPT_LINE}" stroke-width="26" stroke-linecap="round"/>
-  <path d="M404 562L484 642L626 498" fill="none" stroke="url(#ei-sunset)" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+{body}
 </svg>
 """
 
@@ -120,7 +170,8 @@ def wordmark_svg(fill, bg=None):
 def write_svgs():
     BRAND.mkdir(exist_ok=True)
     (BRAND / "icon.svg").write_text(icon_svg())
-    (STATIC / "favicon.svg").write_text(icon_svg())
+    # Site favicon / header logo is shown at 16-32 px, so it uses the simplified variant.
+    (STATIC / "favicon.svg").write_text(icon_svg(small=True))
     (BRAND / "app-icon-full-bleed.svg").write_text(icon_svg(full_bleed=True))
     (BRAND / "wordmark.svg").write_text(wordmark_svg(INK)[0])
     (STATIC / "wordmark.svg").write_text(wordmark_svg(INK)[0])  # used as a CSS mask in the header
@@ -149,16 +200,16 @@ def render_pngs():
             page.close()
 
         full = icon_svg(full_bleed=True, size=1024)
-        rounded = icon_svg(size=1024)
+        small = icon_svg(size=1024, small=True)
         shot(full, (1024, 1024), tmp / "full.png", False)
-        shot(rounded, (1024, 1024), tmp / "rounded.png", True)
+        shot(small, (1024, 1024), tmp / "small.png", True)
         shot((ROOT / "scripts" / "og-image.html").as_uri(), (1200, 630), STATIC / "og-image.png", False)
         browser.close()
 
     full_img = Image.open(tmp / "full.png").convert("RGB")  # App Store: no alpha channel
     full_img.save(BRAND / "app-icon-1024.png", optimize=True)
     full_img.resize((180, 180), Image.LANCZOS).save(STATIC / "apple-touch-icon.png", optimize=True)
-    Image.open(tmp / "rounded.png").convert("RGBA").resize((32, 32), Image.LANCZOS).save(
+    Image.open(tmp / "small.png").convert("RGBA").resize((32, 32), Image.LANCZOS).save(
         STATIC / "favicon-32.png", optimize=True)
     shutil.rmtree(tmp)
     print("wrote brand/app-icon-1024.png, static/apple-touch-icon.png, static/favicon-32.png, static/og-image.png")
