@@ -47,7 +47,7 @@ SITE = {
     "url": "https://everyitem.app",          # no trailing slash
     "tagline": "Keep every receipt, warranty and return deadline.",
     "subtitle": "Receipts, Warranties & Returns",
-    "owner": "Every Item",
+    "owner": "Every Item",  # Real name removed for now (Oct 22, 2026); restore the owner's real name when the App Store listing goes live.
     "support_email": "support@everyitem.app",
     # TODO: set to True once the support@everyitem.app mailbox actually exists
     # and you have sent it a test email. While False, the build prints a warning
@@ -221,7 +221,7 @@ def home_schema():
         "applicationCategory": "LifestyleApplication",
         "description": SITE["tagline"],
         "url": SITE["url"] + "/",
-        "author": {"@type": "Person", "name": SITE["owner"]},
+        "author": {"@type": "Organization", "name": SITE["owner"], "url": SITE["base_url"] if "base_url" in SITE else "https://everyitem.app/"},
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
     }
 
@@ -323,7 +323,7 @@ def build_guide(guide, base, guide_tpl, css_href, out_dir):
         "description": guide["description"],
         "datePublished": published,
         "dateModified": guide["updated"],
-        "author": {"@type": "Person", "name": SITE["owner"]},
+        "author": {"@type": "Organization", "name": SITE["owner"], "url": SITE["base_url"] if "base_url" in SITE else "https://everyitem.app/"},
         "publisher": {"@type": "Organization", "name": SITE["name"],
                       "logo": {"@type": "ImageObject",
                                "url": SITE["url"] + "/apple-touch-icon.png"}},
