@@ -99,6 +99,9 @@ def main():
         sys.exit(f"{OUT} does not exist - run python3 build.py first.")
     problems, pages = [], {}
     for f in sorted(OUT.rglob("*.html")):
+        # Google Search Console verification files are not real pages.
+        if f.parent == OUT and f.name.startswith("google") and f.read_text(encoding="utf-8").startswith("google-site-verification:"):
+            continue
         parser = Page()
         parser.feed(f.read_text(encoding="utf-8"))
         parser.close()
