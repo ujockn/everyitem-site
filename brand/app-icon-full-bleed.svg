@@ -5,9 +5,20 @@
       <stop offset=".1" stop-color="#FD6404"/>
       <stop offset=".9" stop-color="#FD1F69"/>
     </linearGradient>
+    <filter id="ei-halo" x="-30%" y="-30%" width="160%" height="160%">
+      <feMorphology in="SourceGraphic" operator="dilate" radius="10" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="40" result="wide"/>
+      <feGaussianBlur in="d" stdDeviation="12" result="tight"/>
+      <feMerge><feMergeNode in="wide"/><feMergeNode in="wide"/><feMergeNode in="tight"/></feMerge>
+    </filter>
+    <clipPath id="ei-tile"><rect width="1024" height="1024" rx="0"/></clipPath>
   </defs>
-  <rect width="1024" height="1024" rx="0" fill="url(#ei-sunset)"/>
-  <path d="M280 222 Q280 196 306 196 H718 Q744 196 744 222 V796 L705.3 758 L666.7 796 L628.0 758 L589.3 796 L550.7 758 L512.0 796 L473.3 758 L434.7 796 L396.0 758 L357.3 796 L318.7 758 L280.0 796 Z" fill="#fff" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
-  <path d="M352 294H672M352 354H624M352 414H548" stroke="#D3D3D3" stroke-width="26" stroke-linecap="round"/>
-  <path d="M404 562L484 642L626 498" fill="none" stroke="url(#ei-sunset)" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+  <g clip-path="url(#ei-tile)">
+    <rect width="1024" height="1024" fill="#1C1D21"/>
+    <path d="M262 226 Q262 196 292 196 H732 Q762 196 762 226 V362 H432 V450 H692 V574 H432 V662 H762 V828 L726.3 788 L690.6 828 L654.9 788 L619.1 828 L583.4 788 L547.7 828 L512.0 788 L476.3 828 L440.6 788 L404.9 828 L369.1 788 L333.4 828 L297.7 788 L262.0 828 Z" fill="url(#ei-sunset)" stroke="url(#ei-sunset)" stroke-width="14" stroke-linejoin="round" filter="url(#ei-halo)"/>
+    <path d="M262 226 Q262 196 292 196 H732 Q762 196 762 226 V362 H432 V450 H692 V574 H432 V662 H762 V828 L726.3 788 L690.6 828 L654.9 788 L619.1 828 L583.4 788 L547.7 828 L512.0 788 L476.3 828 L440.6 788 L404.9 828 L369.1 788 L333.4 828 L297.7 788 L262.0 828 Z" fill="#fff" stroke="#fff" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M328 280H642M328 512H542" stroke="#D3D3D3" stroke-width="30" stroke-linecap="round"/>
+    <path d="M328 722H432" stroke="#B9B9B9" stroke-width="30" stroke-linecap="round"/>
+    <path d="M552 722H696" stroke="url(#ei-sunset)" stroke-width="44" stroke-linecap="round"/>
+  </g>
 </svg>

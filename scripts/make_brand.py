@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the Every Item "Sunset" brand assets.
+"""Generate the Every Item brand assets ("Receipt E" icon on charcoal with a Sunset halo).
 
     python3 scripts/make_brand.py          SVGs only (no extra dependencies besides fontTools)
     python3 scripts/make_brand.py --png    also renders the PNGs (needs `pip install playwright pillow`
@@ -10,7 +10,7 @@ Writes:
   static/favicon.svg                 same as brand/icon.svg (used on the website)
   brand/app-icon-full-bleed.svg      square, no rounded corners, no transparency
   brand/app-icon-1024.png            App Store icon: 1024x1024 RGB, no alpha (iOS rounds corners itself)
-  brand/wordmark.svg                 "Every Item" in Inter Bold, outlined, dark (#1C1F23)
+  brand/wordmark.svg                 "Every Item" in Inter Bold, outlined, dark (#1C1D21)
   brand/wordmark-white.svg           same, white (for dark or gradient backgrounds)
   brand/wordmark-on-gradient.svg     white wordmark on the Sunset gradient
   static/wordmark.svg                copy of brand/wordmark.svg for the site header (CSS mask)
@@ -28,35 +28,40 @@ ROOT = Path(__file__).resolve().parent.parent
 BRAND = ROOT / "brand"
 STATIC = ROOT / "static"
 
-# Gradient endpoints sampled from brand/icon_concept_sunset.jpg (12x12 px averages in the
-# flat top-left and bottom-right areas of the tile).
+# Sunset gradient endpoints (sampled from the original concept art, now in brand/archive/).
 SUNSET_ORANGE = "#FD6404"
+SUNSET_CORAL = "#FD4237"
 SUNSET_PINK = "#FD1F69"
-INK = "#1C1F23"
+CHARCOAL = "#1C1D21"   # icon background and the site's dark surfaces
+INK = "#1C1D21"        # wordmark ink (same as the charcoal)
 RECEIPT_LINE = "#D3D3D3"
+RECEIPT_TOTAL = "#B9B9B9"
 INTER = Path("/usr/share/fonts/truetype/sand-box/google/Inter/Inter-VariableFont_opsz,wght.ttf")
 
-# Icon geometry on a 1024 grid (traced from the concept, shadows removed).
+# Icon geometry on a 1024 grid.
 RX = 229  # ~22.4%, close to the iOS corner shape; only used for the web/brand icon
 
 
-def receipt_path():
-    x0, x1, top, bottom, peak, r = 280, 744, 196, 796, 758, 26
-    teeth = 6
-    w = (x1 - x0) / teeth
-    d = [f"M{x0} {top + r}", f"Q{x0} {top} {x0 + r} {top}", f"H{x1 - r}",
-         f"Q{x1} {top} {x1} {top + r}", f"V{bottom}"]
-    for i in range(teeth):  # zigzag torn edge, right to left
-        xr = x1 - i * w
-        d.append(f"L{xr - w / 2:.1f} {peak}")
-        d.append(f"L{xr - w:.1f} {bottom}")
+def receipt_e_path():
+    """The receipt cut into an E: two notches from the right, zigzag torn bottom edge."""
+    x0, x1, xm, sx = 262, 762, 692, 432       # paper left/right, middle-arm right, spine right
+    y0, n1a, n1b, n2a, n2b, yb = 196, 362, 450, 574, 662, 828
+    teeth, depth = 7, 40
+    d = [f"M{x0} {y0 + 30}", f"Q{x0} {y0} {x0 + 30} {y0}", f"H{x1 - 30}", f"Q{x1} {y0} {x1} {y0 + 30}",
+         f"V{n1a}", f"H{sx}", f"V{n1b}", f"H{xm}", f"V{n2a}", f"H{sx}", f"V{n2b}", f"H{x1}", f"V{yb}"]
+    tw = (x1 - x0) / teeth
+    for i in range(teeth):  # torn edge, right to left
+        xr = x1 - i * tw
+        d += [f"L{xr - tw / 2:.1f} {yb - depth}", f"L{xr - tw:.1f} {yb}"]
     d.append("Z")
     return " ".join(d)
 
 
 def icon_svg(full_bleed=False, size=None):
+    """'Receipt E' on charcoal with a tight Sunset halo (concept A3, chosen Oct 2026)."""
     rx = 0 if full_bleed else RX
     dims = f' width="{size}" height="{size}"' if size else ""
+    d = receipt_e_path()
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"{dims}>
   <title>Every Item</title>
   <defs>
@@ -64,11 +69,22 @@ def icon_svg(full_bleed=False, size=None):
       <stop offset=".1" stop-color="{SUNSET_ORANGE}"/>
       <stop offset=".9" stop-color="{SUNSET_PINK}"/>
     </linearGradient>
+    <filter id="ei-halo" x="-30%" y="-30%" width="160%" height="160%">
+      <feMorphology in="SourceGraphic" operator="dilate" radius="10" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="40" result="wide"/>
+      <feGaussianBlur in="d" stdDeviation="12" result="tight"/>
+      <feMerge><feMergeNode in="wide"/><feMergeNode in="wide"/><feMergeNode in="tight"/></feMerge>
+    </filter>
+    <clipPath id="ei-tile"><rect width="1024" height="1024" rx="{rx}"/></clipPath>
   </defs>
-  <rect width="1024" height="1024" rx="{rx}" fill="url(#ei-sunset)"/>
-  <path d="{receipt_path()}" fill="#fff" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
-  <path d="M352 294H672M352 354H624M352 414H548" stroke="{RECEIPT_LINE}" stroke-width="26" stroke-linecap="round"/>
-  <path d="M404 562L484 642L626 498" fill="none" stroke="url(#ei-sunset)" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+  <g clip-path="url(#ei-tile)">
+    <rect width="1024" height="1024" fill="{CHARCOAL}"/>
+    <path d="{d}" fill="url(#ei-sunset)" stroke="url(#ei-sunset)" stroke-width="14" stroke-linejoin="round" filter="url(#ei-halo)"/>
+    <path d="{d}" fill="#fff" stroke="#fff" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M328 280H642M328 512H542" stroke="{RECEIPT_LINE}" stroke-width="30" stroke-linecap="round"/>
+    <path d="M328 722H432" stroke="{RECEIPT_TOTAL}" stroke-width="30" stroke-linecap="round"/>
+    <path d="M552 722H696" stroke="url(#ei-sunset)" stroke-width="44" stroke-linecap="round"/>
+  </g>
 </svg>
 """
 
