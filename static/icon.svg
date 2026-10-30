@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <title>Every Item</title>
+  <defs>
+    <linearGradient id="ei-sunset" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#FD6404"/>
+      <stop offset=".5" stop-color="#FD4237"/>
+      <stop offset=".9" stop-color="#FD1F69"/>
+    </linearGradient>
+    <filter id="ei-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="30"/>
+    </filter>
+    <clipPath id="ei-tile"><rect width="1024" height="1024" rx="229"/></clipPath>
+  </defs>
+  <g clip-path="url(#ei-tile)">
+    <rect width="1024" height="1024" fill="#1C1D21"/>
+    <g>
+    <rect x="408" y="432" width="300" height="168" rx="34" fill="url(#ei-sunset)" filter="url(#ei-glow)" opacity=".7"/>
+    <path d="M224 236 Q224 200 260 200 H368 Q388 200 388 220 V832 L360.7 802 L333.3 832 L306.0 802 L278.7 832 L251.3 802 L224.0 832 Z" fill="#fff"/>
+    <rect x="408" y="200" width="392" height="168" rx="34" fill="#fff"/>
+    <rect x="408" y="664" width="392" height="168" rx="34" fill="#fff"/>
+    <rect x="408" y="432" width="300" height="168" rx="34" fill="url(#ei-sunset)"/>
+    <path d="M456 284H608M456 748H580" stroke="#D3D3D3" stroke-width="26" stroke-linecap="round"/>
+    <path d="M690 306 L716 332 L764 284" fill="none" stroke="#C9CCD2" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M690 770 L716 796 L764 748" fill="none" stroke="#C9CCD2" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M276 270H336M276 330H320" stroke="#E2E3E6" stroke-width="20" stroke-linecap="round"/>
+    <path d="M500 516 L548 562 L630 476" fill="none" stroke="#fff" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

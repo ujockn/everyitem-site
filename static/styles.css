@@ -8,7 +8,7 @@
   --text: #1c1d21;
   --muted: #555b63;
   --border: #e3e0d7;
-  /* Brand (see brand/BRAND.md): "Receipt E" icon on charcoal with a Sunset halo.
+  /* Brand (see brand/BRAND.md): "Checked stack" icon (F3) on charcoal, Sunset check tile.
      Charcoal = header, hero, CTA and footer. Vivid gradient = icon + decoration only;
      anything carrying text uses the "deep" gradient or the solid fallbacks below. */
   --charcoal: #1c1d21;
@@ -94,7 +94,9 @@ h3 { font-size: 1.15rem; }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; padding-block: .85rem; }
 .brand { display: inline-flex; align-items: center; gap: .55rem; font-weight: 700; font-size: 1.15rem; color: var(--on-dark); text-decoration: none; }
 .brand:hover { color: var(--on-dark); }
-.brand img { border-radius: 7px; box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 0 14px rgba(253, 66, 55, .35); }
+/* The icon is a charcoal tile on a charcoal header: a hairline ring separates it. The Sunset
+   glow lives inside the icon (on the check tile), so no coloured glow around the tile. */
+.brand img { border-radius: 7px; box-shadow: 0 0 0 1px rgba(255,255,255,.14); }
 /* Wordmark: the outlined brand/wordmark.svg used as a mask, so it follows the text colour
    (light and dark mode). Falls back to live text in browsers without CSS masks. */
 .wordmark { font-weight: 800; letter-spacing: -.02em; }
@@ -134,7 +136,7 @@ h3 { font-size: 1.15rem; }
 .fine-print { color: var(--muted); font-size: .9rem; text-align: center; margin-top: 1.5rem; }
 
 /* Hero */
-/* Hero: charcoal with a soft Sunset "sunrise" behind the phone, echoing the icon's halo */
+/* Hero: charcoal with a soft Sunset "sunrise" behind the phone, echoing the glow on the icon's check tile */
 .hero {
   padding-block: 3rem 3.5rem;
   color: var(--on-dark);
@@ -146,8 +148,8 @@ h3 { font-size: 1.15rem; }
 .hero .eyebrow, .hero .button-link { color: var(--on-dark-accent); }
 .hero .button-link:hover { color: #ffb59a; }
 .hero .lede { color: var(--on-dark-muted); }
-.hero-mark { display: block; width: 64px; height: 64px; margin: 0 0 1.25rem; border-radius: 14px;
-  box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 0 28px rgba(253, 66, 55, .45), 0 0 60px rgba(253, 31, 105, .20); }
+.hero-mark { display: block; width: 72px; height: 72px; margin: 0 0 1.25rem; border-radius: 16px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.12), 0 12px 30px rgba(0,0,0,.45); }
 .hero-inner { display: grid; gap: 2.5rem; align-items: center; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1rem; margin-top: 1.75rem; }
 .hero-visual { display: flex; justify-content: center; }
@@ -253,7 +255,7 @@ details p { margin-top: 0; color: var(--muted); }
 .site-footer::before { content: ""; position: absolute; inset: 0 0 auto; height: 3px; background: var(--gradient-vivid); }
 .footer-inner { display: grid; gap: 1.5rem; }
 .footer-brand { display: flex; align-items: center; gap: .5rem; font-weight: 700; color: var(--on-dark); margin: 0 0 .25rem; }
-.footer-brand img { border-radius: 6px; box-shadow: 0 0 10px rgba(253, 66, 55, .3); }
+.footer-brand img { border-radius: 5px; box-shadow: 0 0 0 1px rgba(255,255,255,.14); }
 .site-footer ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
 .site-footer a { color: var(--on-dark-muted); }
 .site-footer a:hover { color: var(--on-dark); }

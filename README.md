@@ -93,7 +93,7 @@ dist/
   privacy/index.html  terms/index.html  support/index.html
   404.html
   sitemap.xml  robots.txt
-  styles.css  favicon.svg  favicon-32.png  apple-touch-icon.png  og-image.png
+  styles.css  icon.svg  favicon.svg  favicon-32.png  apple-touch-icon.png  og-image.png
 ```
 
 Every page gets a unique title and description, a canonical URL on `https://everyitem.app`, Open Graph and Twitter tags, and clean URLs (`/privacy/` instead of `/privacy.html`). Guides also get Article, BreadcrumbList and FAQPage structured data.
@@ -119,6 +119,6 @@ HOSTING.md                where and how to host the site
 
 - [ ] **Support mailbox:** `support@everyitem.app` doesn't exist yet (the domain has no MX records). Set up Porkbun's free email forwarding (Domain Management > Email), send a test email, then set `"support_email_ready": True` in `build.py`. That removes the "inbox opens at launch" notice on /support/.
 - [ ] **Privacy policy:** before you submit to the App Store, check `pages/privacy.html` against the shipping app. It assumes no analytics, ads or third-party SDKs and no network requests with user data. Make sure your App Store privacy answers match. Update it **before** shipping any email-forwarding feature.
-- [ ] **Confirm feature claims:** the Free plan's feature list (scanning, Share Sheet import, reminders), "Unlimited items" for Pro, "Restore Purchases", the Face ID switch in settings, and data being included in iPhone backups. Edit `pages/index.html` and `pages/support.html` if any of these differ.
+- [ ] **Confirm feature claims:** the Free plan's feature list (v8: no item limit, scanning, reminders, return-by countdown, store return windows, CSV export, automatic backups, emergency export; Share Sheet import marked "coming in an update"), the Pro list (custom report, room walkthrough; later items marked "coming later"), "Restore Purchases", the Face ID switch in settings, and data being included in iPhone backups. Edit `pages/index.html` and `pages/support.html` if any of these differ.
 - [ ] **At launch:** replace the "Coming soon to the App Store" badges in `pages/index.html` and `templates/guide.html` with the official App Store badge linking to your app (follow Apple's badge guidelines). Until then, don't use Apple's badge artwork.
 - [ ] Write and publish your first real guides, then submit `https://everyitem.app/sitemap.xml` in Google Search Console.

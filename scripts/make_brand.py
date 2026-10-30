@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
-"""Generate the Every Item brand assets ("Receipt E" icon on charcoal with a Sunset halo).
+"""Generate the Every Item brand assets ("Checked stack" icon, concept F3, on charcoal).
 
     python3 scripts/make_brand.py          SVGs only (no extra dependencies besides fontTools)
     python3 scripts/make_brand.py --png    also renders the PNGs (needs `pip install playwright pillow`
                                            and Google Chrome or `playwright install chromium`)
 
 Writes:
-  brand/icon.svg                     rounded-square icon (transparent corners), master vector
-  static/favicon.svg                 same as brand/icon.svg (used on the website)
-  brand/app-icon-full-bleed.svg      square, no rounded corners, no transparency
+  brand/icon.svg                     rounded-square icon (transparent corners), master vector, full detail
+  static/icon.svg                    same as brand/icon.svg (large uses on the website: hero, og-image)
+  static/favicon.svg                 simplified small-size version (favicon, header and footer logo)
+  brand/app-icon-full-bleed.svg      square, no rounded corners, no transparency, full detail
   brand/app-icon-1024.png            App Store icon: 1024x1024 RGB, no alpha (iOS rounds corners itself)
   brand/wordmark.svg                 "Every Item" in Inter Bold, outlined, dark (#1C1D21)
   brand/wordmark-white.svg           same, white (for dark or gradient backgrounds)
   brand/wordmark-on-gradient.svg     white wordmark on the Sunset gradient
   static/wordmark.svg                copy of brand/wordmark.svg for the site header (CSS mask)
-  static/favicon-32.png, static/apple-touch-icon.png (180x180, full-bleed), static/og-image.png (1200x630)
+  static/favicon-32.png (from the simplified icon), static/apple-touch-icon.png (180x180, full-bleed,
+  full detail), static/og-image.png (1200x630, source scripts/og-image.html)
 
 The wordmark is set in Inter (SIL Open Font License) and converted to outlines, so no font
 needs to be installed to display it.
@@ -34,56 +36,88 @@ SUNSET_CORAL = "#FD4237"
 SUNSET_PINK = "#FD1F69"
 CHARCOAL = "#1C1D21"   # icon background and the site's dark surfaces
 INK = "#1C1D21"        # wordmark ink (same as the charcoal)
-RECEIPT_LINE = "#D3D3D3"
-RECEIPT_TOTAL = "#B9B9B9"
+ITEM_LINE = "#D3D3D3"  # grey item line on the white tiles
+CHECK_DONE = "#C9CCD2" # small outlined checks on the white tiles
+STRIP_LINE = "#E2E3E6" # faint lines at the top of the receipt strip
 INTER = Path("/usr/share/fonts/truetype/sand-box/google/Inter/Inter-VariableFont_opsz,wght.ttf")
 
-# Icon geometry on a 1024 grid.
+# Icon geometry on a 1024 grid (concept F3 "Checked stack", chosen Oct 2026).
 RX = 229  # ~22.4%, close to the iOS corner shape; only used for the web/brand icon
+STRIP = (224, 388, 200, 832)        # receipt strip (the E's upright): x0, x1, top, torn bottom
+TILE_X, TILE_W, TILE_H, TILE_R = 408, 392, 168, 34
+TILE_TOP_Y, TILE_MID_Y, TILE_BOT_Y = 200, 432, 664
+MID_W = 300                         # the middle arm is shorter, like an E
 
 
-def receipt_e_path():
-    """The receipt cut into an E: two notches from the right, zigzag torn bottom edge."""
-    x0, x1, xm, sx = 262, 762, 692, 432       # paper left/right, middle-arm right, spine right
-    y0, n1a, n1b, n2a, n2b, yb = 196, 362, 450, 574, 662, 828
-    teeth, depth = 7, 40
-    d = [f"M{x0} {y0 + 30}", f"Q{x0} {y0} {x0 + 30} {y0}", f"H{x1 - 30}", f"Q{x1} {y0} {x1} {y0 + 30}",
-         f"V{n1a}", f"H{sx}", f"V{n1b}", f"H{xm}", f"V{n2a}", f"H{sx}", f"V{n2b}", f"H{x1}", f"V{yb}"]
-    tw = (x1 - x0) / teeth
-    for i in range(teeth):  # torn edge, right to left
+def teeth(x0, x1, yb, n, depth):
+    """Zigzag torn edge, right to left."""
+    tw = (x1 - x0) / n
+    d = []
+    for i in range(n):
         xr = x1 - i * tw
         d += [f"L{xr - tw / 2:.1f} {yb - depth}", f"L{xr - tw:.1f} {yb}"]
-    d.append("Z")
     return " ".join(d)
 
 
-def icon_svg(full_bleed=False, size=None):
-    """'Receipt E' on charcoal with a tight Sunset halo (concept A3, chosen Oct 2026)."""
+def strip_path():
+    x0, x1, y0, yb = STRIP
+    return f"M{x0} {y0 + 36} Q{x0} {y0} {x0 + 36} {y0} H{x1 - 20} Q{x1} {y0} {x1} {y0 + 20} V{yb} {teeth(x0, x1, yb, 3, 30)} Z"
+
+
+def icon_body(simple=False):
+    """F3: a torn receipt strip is the E's upright, three item tiles are its arms, and the
+    middle tile is a Sunset check (claim-ready: every item checked).
+
+    simple=True is the small-size (favicon) version: no glow, no grey item lines, no tiny
+    outlined checks on the white tiles, no lines on the strip, and a heavier white check.
+    """
+    mid = f'<rect x="{TILE_X}" y="{TILE_MID_Y}" width="{MID_W}" height="{TILE_H}" rx="{TILE_R}" fill="url(#ei-sunset)"'
+    out = []
+    if not simple:
+        out.append(mid + ' filter="url(#ei-glow)" opacity=".7"/>')
+    out.append(f'<path d="{strip_path()}" fill="#fff"/>')
+    out.append(f'<rect x="{TILE_X}" y="{TILE_TOP_Y}" width="{TILE_W}" height="{TILE_H}" rx="{TILE_R}" fill="#fff"/>')
+    out.append(f'<rect x="{TILE_X}" y="{TILE_BOT_Y}" width="{TILE_W}" height="{TILE_H}" rx="{TILE_R}" fill="#fff"/>')
+    out.append(mid + "/>")
+    if simple:
+        out.append('<path d="M494 518 L546 566 L632 474" fill="none" stroke="#fff" stroke-width="52" '
+                   'stroke-linecap="round" stroke-linejoin="round"/>')
+    else:
+        out.append(f'<path d="M456 284H608M456 748H580" stroke="{ITEM_LINE}" stroke-width="26" stroke-linecap="round"/>')
+        for y in (306, 770):
+            out.append(f'<path d="M690 {y} L716 {y + 26} L764 {y - 22}" fill="none" stroke="{CHECK_DONE}" '
+                       'stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>')
+        out.append(f'<path d="M276 270H336M276 330H320" stroke="{STRIP_LINE}" stroke-width="20" stroke-linecap="round"/>')
+        out.append('<path d="M500 516 L548 562 L630 476" fill="none" stroke="#fff" stroke-width="40" '
+                   'stroke-linecap="round" stroke-linejoin="round"/>')
+    return "\n    ".join(out)
+
+
+def icon_svg(full_bleed=False, size=None, simple=False):
+    """'Checked stack' on charcoal (concept F3, chosen Oct 2026; replaces A3 'Receipt E')."""
     rx = 0 if full_bleed else RX
     dims = f' width="{size}" height="{size}"' if size else ""
-    d = receipt_e_path()
+    # The small-size version is drawn 18% larger (around the E's centre) so it fills more of a 16 px tile.
+    zoom = ' transform="translate(512 516) scale(1.18) translate(-512 -516)"' if simple else ""
+    glow = "" if simple else """
+    <filter id="ei-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="30"/>
+    </filter>"""
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"{dims}>
   <title>Every Item</title>
   <defs>
     <linearGradient id="ei-sunset" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
       <stop offset=".1" stop-color="{SUNSET_ORANGE}"/>
+      <stop offset=".5" stop-color="{SUNSET_CORAL}"/>
       <stop offset=".9" stop-color="{SUNSET_PINK}"/>
-    </linearGradient>
-    <filter id="ei-halo" x="-30%" y="-30%" width="160%" height="160%">
-      <feMorphology in="SourceGraphic" operator="dilate" radius="10" result="d"/>
-      <feGaussianBlur in="d" stdDeviation="40" result="wide"/>
-      <feGaussianBlur in="d" stdDeviation="12" result="tight"/>
-      <feMerge><feMergeNode in="wide"/><feMergeNode in="wide"/><feMergeNode in="tight"/></feMerge>
-    </filter>
+    </linearGradient>{glow}
     <clipPath id="ei-tile"><rect width="1024" height="1024" rx="{rx}"/></clipPath>
   </defs>
   <g clip-path="url(#ei-tile)">
     <rect width="1024" height="1024" fill="{CHARCOAL}"/>
-    <path d="{d}" fill="url(#ei-sunset)" stroke="url(#ei-sunset)" stroke-width="14" stroke-linejoin="round" filter="url(#ei-halo)"/>
-    <path d="{d}" fill="#fff" stroke="#fff" stroke-width="14" stroke-linejoin="round"/>
-    <path d="M328 280H642M328 512H542" stroke="{RECEIPT_LINE}" stroke-width="30" stroke-linecap="round"/>
-    <path d="M328 722H432" stroke="{RECEIPT_TOTAL}" stroke-width="30" stroke-linecap="round"/>
-    <path d="M552 722H696" stroke="url(#ei-sunset)" stroke-width="44" stroke-linecap="round"/>
+    <g{zoom}>
+    {icon_body(simple)}
+    </g>
   </g>
 </svg>
 """
@@ -136,13 +170,14 @@ def wordmark_svg(fill, bg=None):
 def write_svgs():
     BRAND.mkdir(exist_ok=True)
     (BRAND / "icon.svg").write_text(icon_svg())
-    (STATIC / "favicon.svg").write_text(icon_svg())
+    (STATIC / "icon.svg").write_text(icon_svg())
+    (STATIC / "favicon.svg").write_text(icon_svg(simple=True))
     (BRAND / "app-icon-full-bleed.svg").write_text(icon_svg(full_bleed=True))
     (BRAND / "wordmark.svg").write_text(wordmark_svg(INK)[0])
     (STATIC / "wordmark.svg").write_text(wordmark_svg(INK)[0])  # used as a CSS mask in the header
     (BRAND / "wordmark-white.svg").write_text(wordmark_svg("#FFFFFF")[0])
     (BRAND / "wordmark-on-gradient.svg").write_text(wordmark_svg("#FFFFFF", bg=True)[0])
-    print("wrote brand/*.svg and static/favicon.svg")
+    print("wrote brand/*.svg, static/icon.svg and static/favicon.svg")
 
 
 def render_pngs():
@@ -165,7 +200,7 @@ def render_pngs():
             page.close()
 
         full = icon_svg(full_bleed=True, size=1024)
-        rounded = icon_svg(size=1024)
+        rounded = icon_svg(size=1024, simple=True)  # favicon-32 uses the small-size version
         shot(full, (1024, 1024), tmp / "full.png", False)
         shot(rounded, (1024, 1024), tmp / "rounded.png", True)
         shot((ROOT / "scripts" / "og-image.html").as_uri(), (1200, 630), STATIC / "og-image.png", False)
