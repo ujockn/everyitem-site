@@ -97,6 +97,8 @@ Amazon issues the refund once it (or the third-party seller) receives the item a
 - **Take a photo of the item and packing slip** before you send it back, in case of a dispute.
 - **Set a reminder** a few days before the deadline so you have time to get to a drop-off location.
 
+Already past the deadline? See [what you can still do if you missed a return window](/guides/missed-return-window/).
+
 Every Item, our upcoming iPhone app (coming soon to the App Store), is built for this: it saves your receipts and reminds you before the return deadline.
 
 Comparing stores? See our [Best Buy return policy guide](/guides/best-buy-return-policy/), where most items get only 15 days, and the [Target](/guides/target-return-policy/), [Walmart](/guides/walmart-return-policy/) and [Costco](/guides/costco-return-policy/) guides.

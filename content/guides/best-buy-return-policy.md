@@ -2,17 +2,17 @@
 title: Best Buy Return Policy: Return Windows, Fees and Exceptions
 seo_title: Best Buy Return Policy: Days, Fees & Exceptions | Every Item
 description: How many days you have to return to Best Buy, what members get, restocking fees on phones and cameras, no-receipt returns and items you can't return.
-updated: 2026-10-21
+updated: 2026-10-30
 category: Store return policies
-quick_answer: Most Best Buy purchases can be returned within 15 days, or 60 days if you're a paid My Best Buy Plus or Total member. Phones and other activatable devices get 14 days for everyone (30 days for Verizon devices). The clock starts the day you receive the item, and some opened items carry a $45 or 15% restocking fee.
+quick_answer: Most Best Buy purchases can be returned within 15 days, or 60 days if you're a paid My Best Buy Plus or Total member. Phones and other activatable devices get 14 days for everyone (30 days for Verizon devices). The clock starts the day you receive the item, and some opened items carry a $45 or 15% restocking fee. For the 2026 holidays, most purchases made Oct. 30 through Dec. 31 can be returned through Jan. 15, 2027.
 ---
 This guide explains Best Buy's return policy in plain English: how many days you get, what a membership changes, when you pay a restocking fee, and what you can't return. Every detail comes from Best Buy's official pages, linked in [Sources](#sources). Policies change, so check the official page before you rely on it.
 
-**Last checked: Oct 21, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Best Buy.
+**Last checked: Oct 30, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Best Buy.
 
 ## How many days do you have to return to Best Buy?
 
-According to [Best Buy's Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014), the return period **begins the day you receive your product**, not the day you ordered it. The same windows apply to new, clearance, open-box, refurbished and pre-owned products.
+According to [Best Buy's Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014), the return period **begins the day you receive your product**, not the day you ordered it. The same windows apply to new, clearance, open-box, refurbished and pre-owned products. Best Buy says these standard windows apply to purchases made before Oct. 30, 2026, and after Dec. 31, 2026. For purchases in between, see the [holiday return window](#is-there-a-holiday-return-window) below.
 
 | Product | Standard (free My Best Buy or no account) | My Best Buy Plus and Total members |
 | --- | --- | --- |
@@ -34,9 +34,17 @@ A few things to notice:
 
 ## Is there a holiday return window?
 
-As of Oct 21, 2026, Best Buy's official policy page **does not list an extended holiday return window** for 2026 purchases. The only holiday rule on the page actually *shortens* a window: Halloween and Christmas decorations can be returned within 15 days for all customers, members included.
+Yes. Best Buy's [Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014) lists **extended holiday return and exchange periods** for 2026: purchases made **Oct. 30 through Dec. 31, 2026** have an extended return period **through Jan. 15, 2027**.
 
-Best Buy has announced seasonal extensions in past years, so this could change. If you're buying gifts early, check the official page again before counting on extra time.
+| Purchase | Last day of return window |
+| --- | --- |
+| Most Best Buy purchases (Oct. 30 to Dec. 31, 2026) | January 15, 2027 |
+| My Best Buy Plus and Total member purchases made Oct. 30 to Dec. 3, 2026 | January 31, 2027 |
+| My Best Buy Plus and Total member purchases made on or after Dec. 4, 2026 | 60 days |
+| Activatable devices (cell phones, cellular tablets, mobile hotspots, cellular wearables) | 14 days (30 days for Verizon activatable devices) |
+| Holiday decorations (artificial trees, lights, decorations) | 15 days |
+
+Best Buy counts the day you get the product as day 1. The holiday extension **doesn't apply** to items bought with a third-party contract, such as activatable devices and AppleCare+ plans, or to holiday decorations. Best Buy says restocking fees, nonreturnable products and the rest of its return policy still apply.
 
 ## Restocking fees
 
@@ -104,9 +112,9 @@ Every Item, our upcoming iPhone app (coming soon to the App Store), is built for
 
 ## Sources
 
-All checked on Oct 21, 2026:
+All checked on Oct 30, 2026:
 
-- [Best Buy Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014): return windows, restocking fees, nonreturnable items, receipts, refunds and how to return.
+- [Best Buy Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014): return windows, the 2026 holiday return period, restocking fees, nonreturnable items, receipts, refunds and how to return.
 - [My Best Buy Memberships](https://www.bestbuy.com/site/misc/my-best-buy/pcmcat309300050007.c?id=pcmcat309300050007): membership levels and the 60-day return benefit for Plus and Total.
 - [My Best Buy Plus terms (PDF)](https://storage.bestbuy.com/geeksquad/terms/bestbuy_plus/bby_plus_current_english.pdf): the 60-day period excludes Marketplace Products and keeps the 14-day period for activatable devices.
 
@@ -132,7 +140,7 @@ No. The 60-day window is for the paid My Best Buy Plus and My Best Buy Total mem
 
 ### Does Best Buy extend returns for the holidays in 2026?
 
-As of Oct 21, 2026, Best Buy's official policy page doesn't list a 2026 holiday extension. Holiday decorations are limited to 15 days for everyone. Check the official page again in November.
+Yes. Most Best Buy purchases made Oct. 30 through Dec. 31, 2026 can be returned through January 15, 2027. My Best Buy Plus and Total members get until January 31, 2027 for purchases made Oct. 30 through Dec. 3, 2026, and 60 days for purchases on or after Dec. 4. Activatable devices (14 days, or 30 for Verizon), other items bought with a third-party contract such as AppleCare+, and holiday decorations (15 days) are excluded.
 
 ### Can I return an online Best Buy order to a store?
 
