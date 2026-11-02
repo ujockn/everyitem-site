@@ -80,7 +80,7 @@ Costco's return policy doesn't mention a separate holiday window. Most products 
 - **Hold on to diamond certificates.** Without them, a return of a 1-carat-plus diamond gets complicated.
 - **Set a reminder** a week before the 90-day mark so you have time to test and decide.
 
-Every Item, our upcoming iPhone app (coming soon to the App Store), is built for this: it saves your receipts and reminds you before the return deadline.
+Every Item, our iPhone app (<a href="https://apps.apple.com/app/id6829561211">available on the App Store</a>), is built for this: it saves your receipts and reminds you before the return deadline.
 
 Comparing stores? Costco's 90 days on electronics is longer than at the other stores we cover: see the [Best Buy](/guides/best-buy-return-policy/), [Amazon](/guides/amazon-return-policy/), [Walmart](/guides/walmart-return-policy/) and [Target](/guides/target-return-policy/) guides.
 

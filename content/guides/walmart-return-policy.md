@@ -95,7 +95,7 @@ Refunds to a debit or credit card **without a receipt** may take up to 7 busines
 - **Inspect appliances at delivery.** Walmart says to tell the driver about damage or refuse delivery.
 - **Set a reminder** a few days before the deadline.
 
-Every Item, our upcoming iPhone app (coming soon to the App Store), is built for this: it saves your receipts and reminds you before the return deadline.
+Every Item, our iPhone app (<a href="https://apps.apple.com/app/id6829561211">available on the App Store</a>), is built for this: it saves your receipts and reminds you before the return deadline.
 
 Comparing stores? See our guides to the [Target](/guides/target-return-policy/), [Amazon](/guides/amazon-return-policy/), [Costco](/guides/costco-return-policy/) and [Best Buy](/guides/best-buy-return-policy/) return policies.
 

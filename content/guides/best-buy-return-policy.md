@@ -108,7 +108,7 @@ Fifteen days goes fast. A few habits help:
 - **Write down the real deadline.** Count from the day you *received* the item, and use the right window: 15, 60, 14 or 30 days.
 - **Set a reminder a few days early**, so you have time to test the item and get to a store.
 
-Every Item, our upcoming iPhone app (coming soon to the App Store), is built for this: it saves your receipts and reminds you before the return deadline.
+Every Item, our iPhone app (<a href="https://apps.apple.com/app/id6829561211">available on the App Store</a>), is built for this: it saves your receipts and reminds you before the return deadline.
 
 ## Sources
 

@@ -47,7 +47,7 @@ SITE = {
     "url": "https://everyitem.app",          # no trailing slash
     "tagline": "Keep every receipt, warranty and return deadline.",
     "subtitle": "Receipts, Warranties & Returns",
-    "owner": "Every Item",  # Real name removed for now (Oct 22, 2026); restore the owner's real name when the App Store listing goes live.
+    "owner": "Terrence Burns",
     "support_email": "support@everyitem.app",
     # TODO: set to True once the support@everyitem.app mailbox actually exists
     # and you have sent it a test email. While False, the build prints a warning

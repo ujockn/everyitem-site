@@ -89,7 +89,7 @@ Two A-to-z rules to know:
 - **Return the whole bundle.** Amazon says you must return every item in a "Bundle with Savings" to get a refund.
 - **Drop it off before the return by date.** Being late can trigger a separate late fee of 20% of the item price, even if the item is in perfect condition.
 
-Every Item, our upcoming iPhone app (coming soon to the App Store), helps with this: save the receipt and photos of the item's condition in one place, and get a reminder before the return-by date.
+Every Item, our iPhone app (<a href="https://apps.apple.com/app/id6829561211">available on the App Store</a>), helps with this: save the receipt and photos of the item's condition in one place, and get a reminder before the return-by date.
 
 For the full return windows, see our [Amazon return policy guide](/guides/amazon-return-policy/). Comparing stores? See the [Best Buy](/guides/best-buy-return-policy/), [Target](/guides/target-return-policy/) and [Walmart](/guides/walmart-return-policy/) guides.
 

@@ -101,7 +101,7 @@ Amazon issues the refund once it (or the third-party seller) receives the item a
 
 Already past the deadline? See [what you can still do if you missed a return window](/guides/missed-return-window/).
 
-Every Item, our upcoming iPhone app (coming soon to the App Store), is built for this: it saves your receipts and reminds you before the return deadline.
+Every Item, our iPhone app (<a href="https://apps.apple.com/app/id6829561211">available on the App Store</a>), is built for this: it saves your receipts and reminds you before the return deadline.
 
 Comparing stores? See our [Best Buy return policy guide](/guides/best-buy-return-policy/), where most items get only 15 days, and the [Target](/guides/target-return-policy/), [Walmart](/guides/walmart-return-policy/) and [Costco](/guides/costco-return-policy/) guides.
 

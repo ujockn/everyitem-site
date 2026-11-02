@@ -101,7 +101,7 @@ For the full rules, see our [Target](/guides/target-return-policy/), [Walmart](/
 - **Keep the box, tags and receipt** until you're sure you're keeping the item.
 - **Set a reminder a few days before the deadline**, not on the day itself.
 
-Every Item, our upcoming iPhone app (coming soon to the App Store), is built for this: it fills in the store's return window for you and shows a countdown to the return deadline, with a reminder before it closes. No account needed, and your receipts stay on your phone.
+Every Item, our iPhone app (<a href="https://apps.apple.com/app/id6829561211">available on the App Store</a>), is built for this: it fills in the store's return window for you and shows a countdown to the return deadline, with a reminder before it closes. No account needed, and your receipts stay on your phone.
 
 ## Sources
 
