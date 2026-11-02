@@ -218,7 +218,7 @@ def home_schema():
         "@type": "SoftwareApplication",
         "name": SITE["name"],
         "operatingSystem": "iOS",
-        "applicationCategory": "LifestyleApplication",
+        "applicationCategory": "ProductivityApplication",
         "description": SITE["tagline"],
         "url": SITE["url"] + "/",
         "author": {"@type": "Organization", "name": SITE["owner"], "url": SITE["base_url"] if "base_url" in SITE else "https://everyitem.app/"},
