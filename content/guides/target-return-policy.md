@@ -2,21 +2,21 @@
 title: Target Return Policy: Return Windows, Receipts and Exceptions
 seo_title: Target Return Policy: Days, Receipts & Exceptions | Every Item
 description: How many days you have to return to Target, the 1-year Target brand rule, electronics and Apple windows, no-receipt returns, refunds and final sale items.
-updated: 2026-10-22
+updated: 2026-11-02
 category: Store return policies
-quick_answer: Most new, unopened items sold by Target can be returned within 90 days, and Target Owned Brand items within one year with a receipt. Electronics get 30 days, and Apple, Beats and mobile phones get 14. Target Circle Card holders and Target Circle 360 members get an extra 30 days on nearly all items.
+quick_answer: Most items sold by Target can be returned within 90 days, and Target Owned Brand items within one year with a receipt. Electronics get 30 days, and Apple, Beats and mobile phones get 14. Target Circle Card holders and Target Circle 360 members get an extra 30 days on nearly all items.
 ---
 This guide explains Target's return policy in plain English: how many days you get, which items have shorter windows, what happens without a receipt, and how fast refunds arrive. Every detail comes from Target's official help pages, linked in [Sources](#sources). Policies change, so check the official page before you rely on it.
 
-**Last checked: Oct 22, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Target.
+**Last checked: Nov 2, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Target.
 
 ## How many days do you have to return to Target?
 
-According to [Target's returns help page](https://help.target.com/help/subcategoryarticle?childcat=Returns&parentcat=Policies+%26+Guidelines), most **unopened items sold by Target in new condition** can be returned within **90 days** for a refund or exchange. For Target.com orders, the clock starts when you receive the item: when it's delivered, delivered by a Shipt shopper, or picked up in store.
+Target's [return policy overview](https://www.target.com/returns) lists **90 days for most items sold by Target**. Target's online return center says it may decline a return if the item appears worn or used, or was opened. For Target.com orders, the clock starts when you receive the item: when it's delivered, delivered by a Shipt shopper, or picked up in store.
 
 | Item | Return window | Notes |
 | --- | --- | --- |
-| Most items sold by Target | 90 days | New, unopened condition |
+| Most items sold by Target | 90 days | Online returns may be declined if worn, used or opened |
 | Target Owned Brand items | 1 year | With a receipt; refund or exchange |
 | Electronics and entertainment (not Apple or Beats) | 30 days | |
 | Apple and Beats products, including phones | 14 days | |
@@ -31,7 +31,7 @@ According to [Target's returns help page](https://help.target.com/help/subcatego
 
 ## Is there a holiday return window?
 
-Target's help page says **holiday and limited-time-only collections may have modified return policies**, and limited-time designer launches typically have a shortened window of two weeks. Target has a help article on extended holiday returns, but it didn't load when we checked on Oct 22, 2026, so we couldn't confirm 2026 holiday dates. Check Target's returns page and your receipt before counting on extra time.
+Target's help page says **holiday and limited-time-only collections may have modified return policies**, and limited-time designer launches typically have a shortened window of two weeks. Target has a help article on extended holiday returns, but it didn't load when we checked on Oct 22, 2026, so we couldn't confirm 2026 holiday dates. We didn't recheck it on Nov 2, 2026. Check Target's returns page and your receipt before counting on extra time.
 
 ## Exceptions and final sale items
 
@@ -93,7 +93,7 @@ For mail returns, Target may refund you before it gets the item. If the item tur
 - **Keep the receipt, or pay with a card linked to your Target account** so the purchase shows up in Wallet.
 - **Take a photo of paper receipts**, especially for Target Owned Brand items you might return months later.
 - **Note the right window:** 14 days for Apple and phones, 30 for electronics, 90 for most items.
-- **Keep things unopened** until you're sure. Opened items may be refused.
+- **Keep things unopened** until you're sure. Target says its online return center may decline items that were opened or appear worn or used.
 - **Set a reminder** a few days before the deadline.
 
 Every Item, our upcoming iPhone app (coming soon to the App Store), is built for this: it saves your receipts and reminds you before the return deadline.
@@ -102,12 +102,16 @@ Comparing stores? See our guides to the [Walmart](/guides/walmart-return-policy/
 
 ## Sources
 
-All checked on Oct 22, 2026:
+Checked on Nov 2, 2026:
+
+- [Target Help: Returns](https://www.target.com/help/articles/returns-exchanges/returns): exceptions, final sale items, shorter windows, phone restocking charge, registry and wish list returns, refunds and reasons the online return center may decline a return.
+- [Target Return Policy overview](https://www.target.com/returns): headline return windows and return methods, including Drive Up.
+
+Checked on Oct 22, 2026:
 
 - [Target Help: Returns](https://help.target.com/help/subcategoryarticle?childcat=Returns&parentcat=Policies+%26+Guidelines): return windows, exceptions, final sale items, phone restocking charge, receipts, merchandise return cards, refund methods and timing.
 - [Target Help: Are there any return exceptions?](https://www.target.com/help/article/000061982): exceptions and the note that returns without a receipt may be limited.
 - [Target Circle 360](https://www.target.com/l/target-circle-360/-/N-2rguk): extended returns program rules and exclusions.
-- [Target Return Policy overview](https://www.target.com/returns): return methods, including Drive Up.
 
 This guide is not affiliated with Target. Target says it may deny returns in cases of fraud, suspected fraud or abuse.
 
@@ -115,7 +119,7 @@ This guide is not affiliated with Target. Target says it may deny returns in cas
 
 ### How many days do you have to return something to Target?
 
-Most new, unopened items sold by Target: 90 days. Target Owned Brand items: one year with a receipt. Electronics: 30 days. Apple, Beats and mobile phones: 14 days.
+Most items sold by Target: 90 days. Target Owned Brand items: one year with a receipt. Electronics: 30 days. Apple, Beats and mobile phones: 14 days.
 
 ### Can I return to Target without a receipt?
 
@@ -127,7 +131,7 @@ Target Circle Card holders and Target Circle 360 members get an extra 30 days on
 
 ### Can I return opened items to Target?
 
-Opened items may be denied a refund. Some exceptions are friendlier: most beauty products can be returned opened within 90 days with a receipt. Opened movies, music, games and software can only be exchanged for the same title.
+It depends on the item. Target says its online return center may decline a return if the item was opened, or appears worn or used. Some exceptions are friendlier: most beauty products can be returned opened within 90 days with a receipt. Opened movies, music, games and software can only be exchanged for the same title.
 
 ### Does Target charge a restocking fee?
 

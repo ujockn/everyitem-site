@@ -2,13 +2,13 @@
 title: Best Buy Return Policy: Return Windows, Fees and Exceptions
 seo_title: Best Buy Return Policy: Days, Fees & Exceptions | Every Item
 description: How many days you have to return to Best Buy, what members get, restocking fees on phones and cameras, no-receipt returns and items you can't return.
-updated: 2026-10-30
+updated: 2026-11-02
 category: Store return policies
 quick_answer: Most Best Buy purchases can be returned within 15 days, or 60 days if you're a paid My Best Buy Plus or Total member. Phones and other activatable devices get 14 days for everyone (30 days for Verizon devices). The clock starts the day you receive the item, and some opened items carry a $45 or 15% restocking fee. For the 2026 holidays, most purchases made Oct. 30 through Dec. 31 can be returned through Jan. 15, 2027.
 ---
 This guide explains Best Buy's return policy in plain English: how many days you get, what a membership changes, when you pay a restocking fee, and what you can't return. Every detail comes from Best Buy's official pages, linked in [Sources](#sources). Policies change, so check the official page before you rely on it.
 
-**Last checked: Oct 30, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Best Buy.
+**Last checked: Nov 2, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Best Buy.
 
 ## How many days do you have to return to Best Buy?
 
@@ -112,7 +112,7 @@ Every Item, our upcoming iPhone app (coming soon to the App Store), is built for
 
 ## Sources
 
-All checked on Oct 30, 2026:
+All checked on Nov 2, 2026:
 
 - [Best Buy Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014): return windows, the 2026 holiday return period, restocking fees, nonreturnable items, receipts, refunds and how to return.
 - [My Best Buy Memberships](https://www.bestbuy.com/site/misc/my-best-buy/pcmcat309300050007.c?id=pcmcat309300050007): membership levels and the 60-day return benefit for Plus and Total.

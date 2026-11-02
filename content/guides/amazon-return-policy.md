@@ -2,13 +2,13 @@
 title: Amazon Return Policy: Return Windows, Fees and Exceptions
 seo_title: Amazon Return Policy: Days, Fees & Exceptions | Every Item
 description: How many days you have to return to Amazon, which items get 15, 90 or 365 days, return fees, refund timing and what you can't send back.
-updated: 2026-10-22
+updated: 2026-11-02
 category: Store return policies
 quick_answer: Most Amazon items can be returned within 30 days of delivery in original or unused condition. Apple products sold new get 15 days, while some baby items, mattresses and registry gifts get 90 days or more. Most returns are free, but late, damaged or opened-game returns can carry fees.
 ---
 This guide explains Amazon's return policy in plain English: how long you have, which items get shorter or longer windows, when Amazon charges a fee, and how fast refunds arrive. Every detail comes from Amazon's official help pages, linked in [Sources](#sources). Policies change, so check the official page before you rely on it.
 
-**Last checked: Oct 22, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Amazon.
+**Last checked: Nov 2, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Amazon.
 
 ## How many days do you have to return to Amazon?
 
@@ -27,7 +27,7 @@ Check the product page before you buy. Amazon says each item's return eligibilit
 
 ## Is there a holiday return window?
 
-As of Oct 22, 2026, Amazon's official return policy page **doesn't list a 2026 holiday extension**. Amazon has extended its return window for holiday purchases in past years, so it may announce one later. Don't count on extra time until it appears on Amazon's own pages or in your order's "return by date."
+Yes. Amazon's [official return policy page](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKM69DUUYKQWKWX7) lists a **2026 Holiday Season Extended Return Window**: most items purchased **between November 1 and December 31, 2026** can be returned **through January 31, 2027**. Apple-branded products purchased in the same period can be returned **through January 15, 2027**. Check your order's "return by date" to confirm the deadline for a specific item.
 
 ## Return fees
 
@@ -105,7 +105,7 @@ Comparing stores? See our [Best Buy return policy guide](/guides/best-buy-return
 
 ## Sources
 
-All checked on Oct 22, 2026:
+All checked on Nov 2, 2026:
 
 - [Amazon Return Policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKM69DUUYKQWKWX7): return windows, fees, non-returnable items, condition rules, refund timing, gifts and third-party sellers.
 
@@ -135,4 +135,4 @@ Amazon charges a restocking fee of 100% of the item price for software and video
 
 ### Does Amazon extend returns for the holidays in 2026?
 
-As of Oct 22, 2026, Amazon's official return policy page doesn't show a 2026 holiday extension. Check the page and your order's return by date later in the season.
+Yes. Amazon says most items purchased between November 1 and December 31, 2026 can be returned through January 31, 2027. Apple-branded products bought in that period can be returned through January 15, 2027.
