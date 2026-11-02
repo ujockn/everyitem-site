@@ -60,6 +60,8 @@ Most store receipts are printed on thermal paper, which fades with heat, light a
 - **Back it up.** Keep your copies somewhere that survives a lost phone, such as a cloud backup or an exported file.
 - **Keep the original for big purchases.** For expensive items, warranties that ask for the original, or anything tied to taxes, keep the paper too, stored flat somewhere cool and dark.
 
+**Keep every receipt in one place.** You probably get receipts three ways now: paper at the register, by email for online orders, and digital receipts from tap-to-pay and store apps. Once your paper receipts are digitized, you can keep all three kinds together in one place, such as an app like [Every Item](/), instead of hunting through a drawer, your inbox and several store apps.
+
 Once a receipt is digitized, you can toss the paper for everyday purchases after the return window closes.
 
 ## How to never lose a receipt again
