@@ -8,7 +8,7 @@ quick_answer: If you already started an Amazon return, drop it off as soon as yo
 ---
 Miss Amazon's return-by date and you can lose **20% of the item price** to a late fee, or **all of it** once 30 more days go by, according to the [Amazon Return Policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKM69DUUYKQWKWX7). The good news: a closed window isn't always the end. This guide covers what you can still try, starting with Amazon and then Target, Walmart, Best Buy and Costco. Every detail comes from official store and card issuer pages, linked in [Sources](#sources).
 
-**Last checked: Oct 30, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Amazon, Target, Walmart, Best Buy, Costco, American Express or Chase.
+**Last checked: Nov 3, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Amazon, Target, Walmart, Best Buy, Costco, American Express or Chase.
 
 ## First: which situation are you in?
 
@@ -86,7 +86,7 @@ Before you assume you're too late, check whether a longer window applies to you.
 
 | Store | Standard window | Ways you might still have time |
 | --- | --- | --- |
-| [Target](https://help.target.com/help/subcategoryarticle?childcat=Returns&parentcat=Policies+%26+Guidelines) | 90 days for most unopened items | Target Owned Brand items: 1 year with a receipt. Target Circle Card holders and Target Circle 360 members: an extra 30 days on nearly all items bought with a Target Circle Card |
+| [Target](https://help.target.com/help/subcategoryarticle?childcat=Returns&parentcat=Policies+%26+Guidelines) | 90 days for most unopened items | Target Owned Brand items: 1 year with a receipt. Target Circle Card holders and Target Circle 360 members: an extra 30 days on nearly all items bought with a Target Circle Card. Holiday returns: for qualifying purchases made Nov 1 through Dec 24, 2026, electronics and entertainment (excluding Apple and Beats) are returnable through Jan 24, 2027, and Apple, Beats and unlocked or prepaid phones through Jan 8, 2027 |
 | [Walmart](https://corporate.walmart.com/policies) | 90 days for most items | Holiday returns: most items bought Oct 1 through Dec 31 are returnable until Jan 31 (exceptions include wireless phones, protection plans and major appliances). Opened major appliances past the 2-day window go to the manufacturer warranty |
 | [Best Buy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014) | 15 days (60 for My Best Buy Plus and Total members) | Holiday returns: most purchases made Oct 30 through Dec 31, 2026 can be returned through Jan 15, 2027 (Plus and Total members: Jan 31, 2027 for purchases through Dec 3). Activatable devices and holiday decorations are excluded |
 | [Costco](https://customerservice.costco.com/app/answers/answer_view/a_id/1191) | No general deadline listed under its satisfaction guarantee | Most products have no stated time limit. TVs, computers, phones, cameras, major appliances and some other electronics have 90 days; Costco Technical & Warranty Services can help with many of those after that |
@@ -115,6 +115,7 @@ All checked on Oct 30, 2026:
 - [American Express Return Protection terms](https://www.americanexpress.com/us/credit-cards/features-benefits/policies/return-protection-terms.html) and [Return Protection benefit guide (PDF)](https://www.americanexpress.com/content/dam/amex/us/credit-cards/features-benefits/RP_Benefit_Guide_Rev_10-20_10.09.23-final.pdf): eligible cards, 90-day limit, $300 per item and $1,000 per year caps, conditions and exclusions.
 - [Chase Return Protection: How it works](https://www.chase.com/personal/credit-cards/education/basics/how-chase-return-protection-works): Chase Sapphire Reserve coverage, limits, exclusions and claims.
 - [Target Help: Returns](https://help.target.com/help/subcategoryarticle?childcat=Returns&parentcat=Policies+%26+Guidelines): return windows, Target Owned Brand items and Target Circle Card extra time.
+- [Target Help: Holiday FAQs](https://www.target.com/help/articles/holiday-help/holiday-help-faqs) (checked Nov 3, 2026): 2026 extended holiday return window.
 - [Walmart Policies and Guidelines: Return Policy](https://corporate.walmart.com/policies): return windows, extended holiday returns and major appliances.
 - [Best Buy Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014): standard and member windows and the 2026 extended holiday return period.
 - [What is Costco's return policy?](https://customerservice.costco.com/app/answers/answer_view/a_id/1191): satisfaction guarantee, the 90-day electronics list and Technical & Warranty Services.

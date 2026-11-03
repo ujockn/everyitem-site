@@ -29,7 +29,7 @@ Some items have shorter or longer windows:
 
 ## Walmart's holiday return window
 
-Walmart's policy includes **extended holiday returns**: most items bought **from October 1 through December 31 are returnable until January 31**. Walmart says some exceptions may apply, for example wireless phones, protection plans, major appliances, Dyson products and select seasonal and luxury goods. Marketplace seller participation varies.
+Walmart's policy includes **extended holiday returns**: most items bought **from October 1 through December 31 are returnable until January 31**. Walmart says some exceptions may apply, for example wireless phones, protection plans, major appliances, Dyson products and select seasonal and luxury goods.
 
 ## Exchange-only and final sale items
 

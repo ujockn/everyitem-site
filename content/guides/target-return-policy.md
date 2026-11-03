@@ -8,7 +8,7 @@ quick_answer: Most items sold by Target can be returned within 90 days, and Targ
 ---
 This guide explains Target's return policy in plain English: how many days you get, which items have shorter windows, what happens without a receipt, and how fast refunds arrive. Every detail comes from Target's official help pages, linked in [Sources](#sources). Policies change, so check the official page before you rely on it.
 
-**Last checked: Nov 2, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Target.
+**Last checked: Nov 3, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Target.
 
 ## How many days do you have to return to Target?
 
@@ -31,7 +31,13 @@ Target's [return policy overview](https://www.target.com/returns) lists **90 day
 
 ## Is there a holiday return window?
 
-Target's help page says **holiday and limited-time-only collections may have modified return policies**, and limited-time designer launches typically have a shortened window of two weeks. Target has a help article on extended holiday returns, but it didn't load when we checked on Oct 22, 2026, so we couldn't confirm 2026 holiday dates. We didn't recheck it on Nov 2, 2026. Check Target's returns page and your receipt before counting on extra time.
+Target's help page says **holiday and limited-time-only collections may have modified return policies**, and limited-time designer launches typically have a shortened window of two weeks. Target's [holiday FAQ](https://www.target.com/help/articles/holiday-help/holiday-help-faqs) also lists an **extended holiday return window for qualifying purchases made November 1 through December 24, 2026**. The return window begins December 26, 2026:
+
+- **Electronics and entertainment items (excluding Apple and Beats):** 30 days from December 26, so return by **January 24, 2027**.
+- **Apple and Beats products and mobile phones (unlocked or prepaid):** 14 days from December 26, so return by **January 8, 2027**.
+- **Most Target Plus items (excluding seasonal holiday décor):** 30 days from December 26, so return by **January 24, 2027**.
+
+Other items keep their usual windows. Target says Target Circle Card holders and Target Circle 360 members should check the return policy for their extended windows.
 
 ## Exceptions and final sale items
 
@@ -102,6 +108,10 @@ Comparing stores? See our guides to the [Walmart](/guides/walmart-return-policy/
 
 ## Sources
 
+Checked on Nov 3, 2026:
+
+- [Target Help: Holiday FAQs](https://www.target.com/help/articles/holiday-help/holiday-help-faqs): 2026 extended holiday return window, purchase dates and return-by dates.
+
 Checked on Nov 2, 2026:
 
 - [Target Help: Returns](https://www.target.com/help/articles/returns-exchanges/returns): exceptions, final sale items, shorter windows, phone restocking charge, registry and wish list returns, refunds and reasons the online return center may decline a return.
@@ -120,6 +130,10 @@ This guide is not affiliated with Target. Target says it may deny returns in cas
 ### How many days do you have to return something to Target?
 
 Most items sold by Target: 90 days. Target Owned Brand items: one year with a receipt. Electronics: 30 days. Apple, Beats and mobile phones: 14 days.
+
+### Does Target extend returns for the 2026 holidays?
+
+For qualifying purchases made November 1 through December 24, 2026, yes. Electronics and entertainment items (excluding Apple and Beats) and most Target Plus items can be returned through January 24, 2027. Apple and Beats products and unlocked or prepaid mobile phones can be returned through January 8, 2027.
 
 ### Can I return to Target without a receipt?
 
