@@ -42,6 +42,8 @@ Amazon says returns are generally free, and most items include at least one free
 
 **Heavy or bulky items** are those that weigh 50 lbs or more, have a longest side over 59 inches when packed, or have a girth over 130 inches. These may cost money to return, and some need a home pickup appointment.
 
+For how much the damage fee costs and how to avoid or dispute it, see our [Amazon return damage fee guide](/guides/amazon-return-damage-fee/).
+
 ## Items you can't return
 
 Amazon lists these as non-returnable:
