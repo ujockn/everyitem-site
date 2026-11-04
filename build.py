@@ -47,7 +47,7 @@ SITE = {
     "url": "https://everyitem.app",          # no trailing slash
     "tagline": "Keep every receipt, warranty and return deadline.",
     "subtitle": "Receipts, Warranties & Returns",
-    "owner": "Terrence Burns",
+    "owner": "Every Item",
     "support_email": "support@everyitem.app",
     # TODO: set to True once the support@everyitem.app mailbox actually exists
     # and you have sent it a test email. While False, the build prints a warning
