@@ -6,7 +6,7 @@ updated: 2026-11-01
 category: Home inventory
 quick_answer: Go room by room. Photograph or video each item and record what it is, the brand and model, the serial number, when you bought it and what it cost. Attach receipts where you have them, and keep a copy somewhere a fire or flood can't reach. Most people can cover a room in about 10–15 minutes.
 ---
-A home inventory is a list of what you own, with photos and proof of value. If there's a fire, flood or burglary, it can make an insurance claim much faster and help you avoid forgetting things when you're under stress. This guide shows you how to make one in an afternoon.
+A home inventory is a list of what you own, with photos and proof of value. If there's a fire, flood or burglary, it can make an insurance claim much faster and help you avoid forgetting things when you're under stress. This guide shows you how to make one in an afternoon. For a shorter seasonal checklist, see [document your home before storm or wildfire season](/guides/document-home-before-storm-season/).
 
 **Last checked: Nov 1, 2026.** Every Item is an independent guide and is not affiliated with any insurer. Your policy's terms decide what's covered, so check them, or ask your agent what documentation they want.
 
@@ -54,7 +54,7 @@ Update every copy whenever you add something valuable. Old copies may miss your 
 
 ## Keep it up to date
 
-Add new purchases when you buy them, and review the whole list once a year, for example when your policy renews.
+Add new purchases when you buy them, and review the whole list once a year, for example when your policy renews or before storm or wildfire season in your area. A short seasonal walkthrough is in [document your home before storm or wildfire season](/guides/document-home-before-storm-season/).
 
 ## Sources
 
