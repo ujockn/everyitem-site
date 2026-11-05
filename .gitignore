@@ -3,5 +3,5 @@ dist/
 preview/
 __pycache__/
 .DS_Store
-screenshots/
+/screenshots/
 brand/mockups/
