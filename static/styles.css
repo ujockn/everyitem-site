@@ -275,6 +275,20 @@ details p { margin-top: 0; color: var(--muted); }
   .split { grid-template-columns: .9fr 1.1fr; gap: 3rem; }
 }
 
+/* Press kit */
+.press-brand { display: flex; gap: 1.25rem; align-items: center; margin: 1rem 0 0; }
+.press-icon { width: 96px; height: 96px; border-radius: 22px; box-shadow: var(--shadow); flex-shrink: 0; }
+.press-actions { display: flex; flex-wrap: wrap; gap: .75rem 1rem; align-items: center; margin: 1.5rem 0 1rem; }
+.press-meta { list-style: none; padding: 0; margin: 1.5rem 0 0; display: grid; gap: .45rem; color: var(--muted); }
+.press-meta strong { color: var(--text); font-weight: 600; }
+.shot-grid { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.shot-grid li { margin: 0; text-align: center; }
+.shot-grid a { display: block; border-radius: 18px; overflow: hidden; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--shadow); transition: transform .15s ease, box-shadow .15s ease; }
+.shot-grid a:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(28, 29, 33, .12); }
+.shot-grid img { display: block; width: 100%; height: auto; }
+.shot-grid p { margin: .55rem 0 0; font-size: .92rem; color: var(--muted); font-weight: 600; }
+.fine-print { margin-top: 1.25rem; color: var(--muted); font-size: .92rem; }
+
 /* Official App Store badge (Apple artwork, unmodified; min height 40px per Apple guidelines) */
 .app-store-badge { display: inline-block; line-height: 0; }
 .app-store-badge img { height: 50px; width: auto; display: block; }
