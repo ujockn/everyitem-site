@@ -20,6 +20,8 @@ Stores use these words loosely, so it helps to split them up.
 
 This guide is about the first one, plus the competitor rules where a store's own page mentions them.
 
+For clothing and department stores like Nordstrom, Gap, Banana Republic and Shopbop, see our [clothing store price adjustment guide](/guides/clothing-store-price-adjustment-policies/).
+
 ## Which stores refund the difference? At a glance
 
 | Store | Refund after a price drop? | How long you have | Biggest catches |
