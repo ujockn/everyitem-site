@@ -15,7 +15,7 @@ A price drop right after you buy can cost you real money, and whether you get it
 Stores use these words loosely, so it helps to split them up.
 
 - **Price adjustment (after purchase):** you already bought the item, the same store later lowers its price, and you ask for the difference back. This is what most people mean after Black Friday.
-- **Price match (before purchase):** the store matches a lower price, often a competitor's, when you check out. Several stores say this does not apply to Black Friday deals and other special events.
+- **Price match (before purchase):** the store matches a lower price, often a competitor's, when you check out. Several stores say this does not apply to Black Friday deals and other special events. See [which stores match a competitor's price](/guides/price-match-guarantee/).
 - **Price protection:** a credit card benefit, covered near the end of this guide.
 
 This guide is about the first one, plus the competitor rules where a store's own page mentions them.
