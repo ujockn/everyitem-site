@@ -29,7 +29,7 @@ For each store's full return windows, see our [Target](/guides/target-return-pol
 
 - **With a gift receipt or packing slip:** you get a **Target GiftCard**. In-store returns that use a gift receipt **cannot be processed on the same day the gift was purchased**.
 - **Without a gift receipt or packing slip:** Target says you **may** get a **merchandise return card** in store.
-- **Merchandise return card:** Target issues these for non-receipted Target product returns in store. You need a **government-issued ID**. The card is redeemable **only in Target stores** (not on Target.com), is not cash or credit except where the law requires otherwise, is not transferable, and you may need the same ID to redeem it.
+- **[Merchandise return card](https://www.target.com/help/article/000062592):** Target issues these for non-receipted Target product returns in store. You need a **government-issued ID**. The card is redeemable **only in Target stores** (not on Target.com), is not cash or credit except where the law requires otherwise, is not transferable, and you may need the same ID to redeem it.
 - **Opened, damaged or no-receipt items** may be denied a refund or exchange. Returns and exchanges without a receipt may also be limited.
 - **Target Plus Partner items:** you must present a receipt or the original payment method for a lookup. In-store returns without an eligible receipt are denied.
 
@@ -112,7 +112,7 @@ Every Item, our iPhone app (<a href="https://apps.apple.com/app/id6829561211">av
 All checked on Nov 6, 2026:
 
 - [Target Help: Returns](https://www.target.com/help/articles/returns-exchanges/returns): gift receipt and packing-slip GiftCard, same-day gift-receipt rule, merchandise return cards, opened/damaged/no-receipt denials, non-receipt limits and Target Plus Partner lookup rules.
-- [Target Help: Merchandise Return Cards](https://www.target.com/help/article/000061980) and [Merchandise Return Cards](https://www.target.com/c/merchandise-return-cards/-/N-ekoun): government ID, in-store-only redemption, not cash/credit except where law requires, not transferable.
+- [Target Help: What is a merchandise return card?](https://www.target.com/help/article/000062592): government ID, in-store-only redemption, not cash/credit except where law requires, not transferable.
 - [Target Help: Holiday FAQs](https://www.target.com/help/articles/holiday-help/holiday-help-faqs): 2026 holiday return windows for electronics, entertainment, Apple, Beats and phones.
 - [Walmart Policies and Guidelines: Return Policy](https://corporate.walmart.com/policies) (updated Nov. 2, 2026): gift receipt options (exchange, Gift Card, credit to sender), without-gift-receipt Gift Card path, non-receipted returns (government photo ID, gift card if verification accepts, number/frequency limits), card/email lookup and Extended Holiday Returns (Oct. 1–Dec. 31 until Jan. 31).
 - [Amazon Return Policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKM69DUUYKQWKWX7): Returning a Gift (17-digit order number, ask the giver, exchange = return then new order), Kindle gift Gift Card note, damage fee up to 50%, and the 2026 holiday window.

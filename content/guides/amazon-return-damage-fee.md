@@ -1,7 +1,7 @@
 ---
 title: Amazon Return Damage Fee: How Much It Is and How to Avoid It
-seo_title: Amazon Damage Fee: How Much It Is & How to Avoid It | Every Item
-description: How much Amazon's return damage fee is, what triggers it, how it differs from late and restocking fees, and how to avoid a reduced refund.
+seo_title: How Much Is the Amazon Damage Fee? Up to 50% | Every Item
+description: Amazon's return damage fee is up to 50% of the item price, or 100% for Amazon Luxury, if a return is damaged, missing parts, or not in original condition.
 updated: 2026-10-29
 category: Store return policies
 quick_answer: Amazon's damage fee is up to 50% of the item price, or 100% for Amazon Luxury items. It can apply when a return comes back damaged, missing parts, not in original condition, with tags removed or with obvious signs of use, unless Amazon or the seller caused the problem.
