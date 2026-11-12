@@ -10,6 +10,8 @@ This guide explains Best Buy's return policy in plain English: how many days you
 
 **Last checked: Nov 2, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Best Buy.
 
+For TVs, cameras, appliances and game consoles, see [Best Buy's return rules by product](/guides/best-buy-return-policy-by-product/).
+
 ## How many days do you have to return to Best Buy?
 
 According to [Best Buy's Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014), the return period **begins the day you receive your product**, not the day you ordered it. The same windows apply to new, clearance, open-box, refurbished and pre-owned products. Best Buy says these standard windows apply to purchases made before Oct. 30, 2026, and after Dec. 31, 2026. For purchases in between, see the [holiday return window](#is-there-a-holiday-return-window) below.
