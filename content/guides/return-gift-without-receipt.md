@@ -21,7 +21,7 @@ Return a Best Buy gift with no proof of purchase and Best Buy says you get **sto
 | [Best Buy](#best-buy) | Receipt, packing slip or account order | May require email; may be denied or limited | In store: store credit for purchase price. By mail: credit to the purchaser. No proof: store credit; tax and fees not reimbursed |
 | [Costco](#costco) | Receipt or packaging helps | Receipt may not be necessary; limitations apply | Satisfaction guarantee; most electronics 90 days; membership required |
 
-For each store's full return windows, see our [Target](/guides/target-return-policy/), [Walmart](/guides/walmart-return-policy/), [Amazon](/guides/amazon-return-policy/), [Best Buy](/guides/best-buy-return-policy/) and [Costco](/guides/costco-return-policy/) guides.
+For each store's full return windows, see our [Target](/guides/target-return-policy/), [Walmart](/guides/walmart-return-policy/), [Amazon](/guides/amazon-return-policy/), [Best Buy](/guides/best-buy-return-policy/) and [Costco](/guides/costco-return-policy/) guides. Gift cards themselves are an exception: these stores generally will not take the card back, even with a receipt. See [can you return a gift card](/guides/return-gift-card/).
 
 ## Target
 
