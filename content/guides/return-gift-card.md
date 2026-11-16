@@ -2,14 +2,14 @@
 title: Can You Return a Gift Card? Target, Walmart, Amazon, Best Buy and Costco Rules
 seo_title: Can You Return a Gift Card? Store Rules | Every Item
 description: Can you return a gift card with the receipt? Not at Target, Walmart, Amazon, Best Buy or Costco. Legal cash-out rules, and why to keep the receipt.
-updated: 2026-11-13
+updated: 2026-11-15
 category: Store return policies
 quick_answer: Usually not, even with the receipt. Target, Walmart, Amazon, Best Buy and Costco all treat gift cards (store cards and prepaid Visa, Mastercard and Amex cards) as non-returnable or non-refundable, except where the law requires otherwise. In California, a balance under $15 can be redeemed for cash. Keep the receipt anyway, because Best Buy only replaces a lost or stolen card with proof of purchase.
 draft: false
 ---
 Buy a $100 Target GiftCard, keep the receipt, change your mind the next day, and you still can't get the $100 back. Target's [returns page](https://www.target.com/help/articles/returns-exchanges/returns) lists Target GiftCards and prepaid Visa, Mastercard and American Express gift cards as final sale, not returnable or redeemable for cash except where the law requires it. Walmart, Amazon, Best Buy and Costco say much the same. So the short answer is no: a receipt doesn't make a gift card returnable at these stores. This guide shows each store's rule, the legal exceptions (California's cash-back rule changed in 2026), and the jobs the receipt can still do for you. Every detail comes from official pages, linked in [Sources](#sources).
 
-**Last checked: November 13, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Target, Walmart, Amazon, Best Buy or Costco. This is general information, not legal advice.
+**Last checked: November 15, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Target, Walmart, Amazon, Best Buy or Costco. This is general information, not legal advice.
 
 ## Can you return a gift card? Store by store
 
@@ -45,7 +45,7 @@ Two useful details: Amazon charges no fees on gift cards, and balances from card
 
 Best Buy's [Gift Card Terms and Conditions](https://www.bestbuy.com/gcterms) say its gift cards have no expiration date and no fees, and are **not redeemable for cash**. Its [Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014) separately lists codes and prepaid cards, including third-party gift cards, as items it won't take back.
 
-This is where the receipt matters most. Best Buy replaces a **lost, stolen or damaged** gift card only with valid proof of purchase, and only for the balance left on the card. Its [gift card FAQ](https://www.bestbuy.com/site/gift-card-help/gift-card-faq/pcmcat1526048189330.c?id=pcmcat1526048189330) adds that if the card was bought at another retailer, you ask that retailer for the replacement. Returns of items bought with a Best Buy gift card are credited back to the card within 30 minutes of Best Buy receiving them. See our [Best Buy return policy guide](/guides/best-buy-return-policy/) for windows and fees.
+This is where the receipt matters most. Best Buy replaces a **lost, stolen or damaged** gift card only with valid proof of purchase, and only for the balance left on the card. Its [gift card FAQ](https://www.bestbuy.com/site/gift-card-help/gift-card-faq/pcmcat1526048189330.c?id=pcmcat1526048189330) adds that if the card was bought at another retailer, you ask that retailer for the replacement. If you return something bought with a Best Buy gift card, Best Buy's gift card FAQ says the refund is credited to your gift card within 30 minutes of Best Buy receiving the return, or to a new card if you no longer have the original. Its return policy also says funds paid with a Best Buy Gift Card come back as a new Gift Card or e-Gift Card. See our [Best Buy return policy guide](/guides/best-buy-return-policy/) for windows and fees.
 
 ## Costco
 
@@ -68,7 +68,7 @@ You can't return the card, but don't throw the receipt away:
 1. **Replacing a lost or stolen card.** Best Buy only replaces one with proof of purchase. Other issuers may ask for the same.
 2. **Reporting a scam.** If someone talked you into buying a gift card and reading them the number, contact the card's issuer right away with the card and the receipt, then report it at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/). Best Buy's terms warn never to share a gift card number or PIN with someone you don't know.
 3. **Proving the purchase date and amount** if the card never activated or shows the wrong balance.
-4. **Returning things you buy with the card.** The refund usually goes back to a gift card (Target issues a new eGiftCard; Best Buy credits the original card), so keep that receipt with the item's receipt.
+4. **Returning things you buy with the card.** The refund usually goes back to a gift card (Target issues a new eGiftCard; Best Buy credits your gift card or issues a new one), so keep that receipt with the item's receipt.
 
 ## Bought a gift card by mistake? What to do
 
@@ -82,16 +82,16 @@ Every Item, our iPhone app (<a href="https://apps.apple.com/app/id6829561211">av
 
 ## Sources
 
-All checked on November 13, 2026:
+All checked on November 15, 2026:
 
 - [Target Help: Returns](https://www.target.com/help/articles/returns-exchanges/returns): gift cards and prepaid cards on the final sale list ("except where required by law"), Target GiftCard refunds as a new eGiftCard, Visa/Mastercard/Amex gift card refunds up to the original value.
 - [Walmart Policies and Guidelines: Return Policy](https://corporate.walmart.com/policies) (updated Nov. 2, 2026): gift cards and branded Visa/Mastercard/Amex gift cards as final sale; Walmart Gift Card refund timing.
 - [Amazon.com Balance and Gift Card Terms and Conditions](https://www.amazon.com/gc-legal): no cash redemption or cash refund except as required by law, no transfer between accounts, risk of loss, no fees, no expiration for cards issued after Oct. 1, 2005.
 - [Amazon Physical Store Return Policies](https://www.amazon.com/gp/help/customer/display.html?nodeId=202075110): gift cards not returnable except as required by law.
 - [Best Buy Gift Cards Terms and Conditions](https://www.bestbuy.com/gcterms): no expiration, no fees, not redeemable for cash, replacement only with proof of purchase, scam warning.
-- [Best Buy Gift Card FAQ](https://www.bestbuy.com/site/gift-card-help/gift-card-faq/pcmcat1526048189330.c?id=pcmcat1526048189330): refunds to the gift card within 30 minutes, replacement for cards bought elsewhere.
-- [Best Buy Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014): codes and prepaid cards, including third-party gift cards, are non-returnable.
-- [What is Costco's return policy?](https://customerservice.costco.com/app/answers/answer_view/a_id/1191): Shop Cards and gift card and ticket items are non-refundable.
+- [Best Buy Gift Card FAQ](https://www.bestbuy.com/site/gift-card-help/gift-card-faq/pcmcat1526048189330.c?id=pcmcat1526048189330): refunds credited to the gift card within 30 minutes of Best Buy receiving the return, or a new card if you no longer have the original; replacement for cards bought elsewhere.
+- [Best Buy Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014): codes and prepaid cards, including third-party gift cards, are non-returnable; funds paid with a Best Buy Gift Card are returned as a new Gift Card or e-Gift Card.
+- [What is Costco's return policy?](https://customerservice.costco.com/app/answers/answer_view/a_id/1191): Shop Cards and gift card and ticket items are non-refundable. The page shows version 18.0, published Oct 2, 2025.
 - [California Civil Code section 1749.5](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1749.5): cash redemption under $15, no expiration dates, dormancy fee limits; operative April 1, 2026.
 - [CFPB: If my prepaid card expires, do I lose my money?](https://www.consumerfinance.gov/ask-cfpb/if-my-prepaid-card-expires-do-i-lose-my-money-en-423/): five-year minimum for gift card funds, 12-month rule for inactivity fees, states may add protections.
 - [12 CFR 1005.20 (eCFR)](https://www.ecfr.gov/current/title-12/chapter-X/part-1005/subpart-A/section-1005.20): federal requirements for gift cards and gift certificates.
@@ -119,7 +119,7 @@ Under federal rules, gift card funds must last at least five years, and inactivi
 
 ### What happens if I return something I bought with a gift card?
 
-You usually get the refund on a gift card, not cash. Target issues a new Target eGiftCard, Best Buy credits the original card within 30 minutes of receiving the return, and Walmart refunds to a Walmart Gift Card or Walmart Balance.
+You usually get the refund on a gift card, not cash. Target issues a new Target eGiftCard, Best Buy credits your gift card (or a new one) within 30 minutes of receiving the return, and Walmart refunds to a Walmart Gift Card or Walmart Balance.
 
 ### Can a lost or stolen gift card be replaced?
 
