@@ -1,7 +1,7 @@
 ---
 title: Missed a Return Window? What You Can Still Do (Amazon, Target, Walmart, Best Buy, Costco)
-seo_title: Missed a Return Window? What You Can Still Do | Every Item
-description: Missed Amazon's return-by date by a day or a week? Your real options: late returns, Customer Service, A-to-z, warranties, card return protection.
+seo_title: Missed Amazon Return Date? What Still Works | Every Item
+description: Missed Amazon's return-by date? A started return dropped off in the next 30 days may still be refunded minus 20%. Also try Customer Service or a warranty.
 updated: 2026-10-30
 category: Store return policies
 quick_answer: If you already started an Amazon return, drop it off as soon as you can. Amazon may still refund you minus a 20% late fee in the first 30 days after the return-by date. If you never started one, contact Customer Service and ask, but nothing is guaranteed. Faulty items can still go through Amazon's support or the warranty, and a few credit cards refund items a store won't take back within 90 days of purchase.

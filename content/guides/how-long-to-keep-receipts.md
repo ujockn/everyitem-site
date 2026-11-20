@@ -48,6 +48,8 @@ The IRS says to keep records that support income, deductions or credits on your 
 
 For property, the IRS says to keep records **until the limitations period ends for the year you dispose of the property**. It also notes that insurers or creditors may want records kept longer than the IRS requires.
 
+For medical and prescription receipts, including those for an HSA or FSA, see [how long to keep medical and prescription receipts](/guides/how-long-to-keep-medical-receipts/).
+
 ## Digitize your paper receipts
 
 Most store receipts are printed on thermal paper, which fades with heat, light and time. A receipt in a hot car, a wallet or a kitchen drawer can be blank by the time you need it. Paper also gets lost, crumpled or thrown out by accident. A digital copy fixes all of that.
