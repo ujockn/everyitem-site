@@ -90,6 +90,8 @@ Costco's [price match page](https://customerservice.costco.com/app/answers/answe
 
 Costco says it can deny a price match at its sole discretion, may restrict the policy in the future, and doesn't price match precious metals. The page doesn't list what proof to bring, so take your receipt or order number.
 
+For a Costco-only walkthrough of the 30-day window, the Black Friday and Holiday Savings rule, and how to ask at the warehouse or online, see our [Costco price adjustment policy](/guides/costco-price-adjustment-policy/).
+
 ## The Home Depot
 
 The Home Depot's [price match page](https://www.homedepot.com/c/price-match-and-price-check) says that if the price of an item you bought drops within **30 days of the purchase date**, you can ask for the difference, in store or online. Home Depot says this applies to a lower price on homedepot.com or at a competitor it matches.

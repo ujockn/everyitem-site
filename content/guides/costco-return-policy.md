@@ -72,6 +72,8 @@ Some items need an extra **3 to 10 business days** for verification. After the r
 
 Costco's return policy doesn't mention a separate holiday window. Most products don't have a listed deadline anyway. **Holiday gifts in the electronics and appliance categories still follow the 90-day rule**, counted from when the item was received. A TV bought in early November and received right away will run out of time in early February.
 
+If Costco lowers its own price after you buy, you may be able to get the difference back without returning the item. See our [Costco price adjustment policy](/guides/costco-price-adjustment-policy/) for the 30-day window, the Black Friday and Holiday Savings rule, and how to ask at the warehouse or on Costco.com.
+
 ## How to never miss a Costco return deadline
 
 - **Keep receipts for electronics and appliances**, and note the 90-day date the day the item arrives.
