@@ -102,7 +102,9 @@ Target's page doesn't say whether games fall under its 30-day electronics-and-en
 
 ## What about the holidays?
 
-Holiday gifts get extra time at some stores but not all. Amazon says most items bought between Nov. 1 and Dec. 31, 2026 can go back through **Jan. 31, 2027**. Best Buy says most purchases made Oct. 30 through Dec. 31 can go back through **Jan. 15, 2027**. Target says electronics and entertainment bought Nov. 1 through Dec. 24 can go back through **Jan. 24, 2027** (Apple and Beats: Jan. 8). Walmart lists most items bought Oct. 1 through Dec. 31 as returnable until **Jan. 31**, with exceptions. Costco's return policy doesn't mention a holiday window. Restocking fees and exchange-only rules still apply, so a holiday extension doesn't make an opened camera free to return. See [holiday return deadlines for 2026](/guides/holiday-return-deadlines-2026/) for the full details.
+Holiday gifts get extra time at some stores but not all. Amazon says most items bought between Nov. 1 and Dec. 31, 2026 can go back through **Jan. 31, 2027**. Best Buy says most purchases made Oct. 30 through Dec. 31 can go back through **Jan. 15, 2027**. Target says electronics and entertainment bought Nov. 1 through Dec. 24 can go back through **Jan. 24, 2027** (Apple and Beats: Jan. 8). Walmart lists most items bought Oct. 1 through Dec. 31 as returnable until **Jan. 31**, with exceptions. Costco's return policy doesn't mention a holiday window. Restocking fees and exchange-only rules still apply, so a holiday extension doesn't make an opened camera free to return. If you bought from Apple itself, the [Apple return policy](/guides/apple-return-policy/) covers the 14-day window from delivery and the 2026 holiday dates (eligible Apple Store Online orders received Nov. 6 to Dec. 25 can go back through Jan. 8, 2027).
+
+See [holiday return deadlines for 2026](/guides/holiday-return-deadlines-2026/) for the full details.
 
 ## How to return an opened electronic item without losing money
 

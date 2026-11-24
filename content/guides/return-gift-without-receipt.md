@@ -2,14 +2,14 @@
 title: Returning a Gift Without a Receipt: Target, Walmart, Amazon, Best Buy, Costco
 seo_title: Return a Gift Without a Receipt | Store Rules | Every Item
 description: Return a gift without a receipt at Target, Walmart, Amazon, Best Buy and Costco: what you get back, ID rules and gift receipts.
-updated: 2026-11-06
+updated: 2026-11-16
 category: Store return policies
 quick_answer: With a gift receipt or order number, Target and Walmart give a GiftCard (or, at Walmart, credit to the giver), Amazon starts the return from the packing slip, and Best Buy issues store credit in store. Without any proof, Target may give a merchandise return card, Walmart needs a government photo ID and pays a gift card if verification accepts, Best Buy may limit or deny the return and will not reimburse sales tax and fees, and Costco says a receipt helps but may not be necessary.
 draft: false
 ---
 Return a Best Buy gift with no proof of purchase and Best Buy says you get **store credit**, the return **may be denied or limited**, and **sales tax and fees will not be reimbursed**, per its [Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014). At Target you may get a merchandise return card instead of cash, and at Walmart a non-receipted return needs a government photo ID. This guide covers gift returns with and without a gift receipt at Target, Walmart, Amazon, Best Buy and Costco: what you get back, what ID is required and how to improve your odds. Every detail comes from official store pages, linked in [Sources](#sources).
 
-**Last checked: Nov 6, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Target, Walmart, Amazon, Best Buy or Costco.
+**Last checked: Nov 6, 2026.** Every Item is an independent guide and is not affiliated with, endorsed by or sponsored by Target, Walmart, Amazon, Best Buy, Costco or Kohl's.
 
 ## Store-by-store: gift receipt vs no proof
 
@@ -96,6 +96,15 @@ Costco's pages don't describe a separate "gift return" process the way Target or
 
 You'll need an active Costco membership to return in a warehouse. Costco's return policy does not list a holiday extension, so electronics gifts still follow the 90-day rule from when the item was received. Ask at the returns counter if you have packaging but no receipt.
 
+
+## How long do gift receipts last?
+
+A gift receipt doesn't get its own deadline. It follows the store's normal return window, which is often longer over the holidays. Use the purchase date on the slip, not the day you unwrapped the gift.
+
+For 2026 holiday purchases: Target electronics and entertainment bought Nov. 1–Dec. 24 can go back through **Jan. 24, 2027** (Apple, Beats and unlocked or prepaid phones through **Jan. 8, 2027**), per its [Holiday FAQs](https://www.target.com/help/articles/holiday-help/holiday-help-faqs). [Walmart](https://corporate.walmart.com/policies) accepts most items bought **Oct. 1–Dec. 31** until **Jan. 31**. Amazon packing-slip or digital gift-receipt returns for most items bought Nov. 1–Dec. 31, 2026 run through **Jan. 31, 2027**. [Best Buy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014) extends most purchases made **Oct. 30–Dec. 31** through **Jan. 15, 2027**, and a gift returned in store gets **store credit for the purchase price**. [Kohl's](https://www.kohls.com/faq/article/893) extends most merchandise bought **Oct. 4–Dec. 30, 2026** through **Jan. 31, 2027**. You can exchange with a gift receipt in that window; without one, Kohl's issues Merchandise Credit at the **lowest discounted 13-week sale price** (a photo ID may be required).
+
+Usual windows otherwise: 90 days at Target, Walmart and Kohl's (120 with a Kohl's Card), and 15 days from receipt at Best Buy for most products.
+
 ## Practical tips before you go
 
 1. **Ask the giver for a gift receipt, packing slip, order number or the card used.** That single ask is the difference between a GiftCard and a limited no-proof return at most of these stores.
@@ -109,7 +118,15 @@ Every Item, our iPhone app (<a href="https://apps.apple.com/app/id6829561211">av
 
 ## Sources
 
-All checked on Nov 6, 2026:
+Checked on Nov 16, 2026:
+
+- [Target Help: Holiday FAQs](https://www.target.com/help/articles/holiday-help/holiday-help-faqs): 2026 holiday return windows for electronics, entertainment, Apple, Beats and phones, and the usual 90-day window for most unopened Target items.
+- [Walmart Policies and Guidelines: Return Policy](https://corporate.walmart.com/policies) (updated Nov. 2, 2026): 90-day standard window and Extended Holiday Returns (Oct. 1–Dec. 31 until Jan. 31).
+- [Amazon Return Policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKM69DUUYKQWKWX7): Returning a Gift (packing slip or digital gift receipt) and the 2026 holiday window (most items through Jan. 31, 2027).
+- [Best Buy Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014): 15-day standard window for most products, the 2026 holiday period (Oct. 30–Dec. 31 through Jan. 15, 2027) and in-store gift returns credited at the purchase price.
+- [Kohl's Return Policy](https://www.kohls.com/faq/article/893): 2026 holiday window (Oct. 4–Dec. 30, 2026 through Jan. 31, 2027), standard 90-day window (120 days with a Kohl's Card), gift exchanges within the applicable return window, and Kohl's Merchandise Credit at the lowest discounted 13-week sale price without a gift receipt (a photo ID may be required).
+
+Also checked on Nov 6, 2026:
 
 - [Target Help: Returns](https://www.target.com/help/articles/returns-exchanges/returns): gift receipt and packing-slip GiftCard, same-day gift-receipt rule, merchandise return cards, opened/damaged/no-receipt denials, non-receipt limits and Target Plus Partner lookup rules.
 - [Target Help: What is a merchandise return card?](https://www.target.com/help/article/000062592): government ID, in-store-only redemption, not cash/credit except where law requires, not transferable.
@@ -147,6 +164,10 @@ No. Best Buy says returns lacking proof of purchase are store credit, may be den
 ### Can Costco take a gift back without a receipt?
 
 Costco says a receipt or the original packaging helps but may not be necessary, and limitations apply. Electronics still have a 90-day window from when the member received the item. Bring your membership card and any packaging you have.
+
+### How long do gift receipts last?
+
+They follow the store's normal return window, which is often longer over the holidays. For 2026 holiday purchases, Target electronics and entertainment can go back through Jan. 24, 2027 (Apple, Beats and unlocked or prepaid phones through Jan. 8, 2027), Walmart most items through Jan. 31, Amazon most items through Jan. 31, 2027, Best Buy most items through Jan. 15, 2027, and Kohl's most merchandise through Jan. 31, 2027. Without a gift receipt, Kohl's issues Merchandise Credit at the lowest discounted 13-week sale price.
 
 ### What is the last day to return holiday gifts in 2026?
 
