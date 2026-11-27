@@ -107,7 +107,7 @@ Not at Target, Walmart, Amazon, Best Buy or Costco. All five list gift cards as 
 
 ### Can you return a Visa or Mastercard gift card?
 
-Not at Target or Walmart. Both list prepaid Visa, Mastercard and American Express gift cards as final sale. If you return an item you paid for with one at Target, the refund goes back onto the gift card, up to its original value.
+Not at Target or Walmart. Both list prepaid Visa, Mastercard and American Express gift cards as final sale. For whether the issuing bank will refund one, see [Can You Get a Refund on a Visa, Mastercard or Amex Gift Card?](/guides/visa-mastercard-gift-card-refund/). If you return an item you paid for with one at Target, the refund goes back onto the gift card, up to its original value.
 
 ### Can I get cash back for a gift card in California?
 
